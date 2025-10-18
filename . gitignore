@@ -1,0 +1,61 @@
+# dir: ~/quangminh-smart-border/.gitignore
+
+# === TỆP NHẠY CẢM HOẶC CỤC BỘ ===
+# Không bao giờ đưa các file biến môi trường lên Git
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === DEPENDENCIES ===
+# Thư mục chứa các gói đã cài đặt, không cần đưa lên Git
+# Sẽ được cài đặt lại bởi `npm install`
+node_modules
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# === THƯ MỤC BUILD / CACHE ===
+# Các thư mục này được tạo ra trong quá trình build, không phải source code
+# Backend (NestJS)
+/backend/dist
+# Frontend (Next.js)
+/frontend/.next
+
+# Cache của Turbopack
+.turbo
+
+# === HỆ ĐIỀU HÀNH & TRÌNH SOẠN THẢO ===
+# File hệ thống của macOS
+.DS_Store
+# File hệ thống của Windows
+Thumbs.db
+ehthumbs.db
+
+# Cấu hình của các trình soạn thảo (IDE)
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+
+# === CÁC THƯ MỤC CỤC BỘ KHÁC ===
+# Dữ liệu upload (không nên đưa lên Git, đặc biệt là dữ liệu người dùng)
+/backend/uploads
+# Coverage report của các công cụ test
+coverage
+.nyc_output
+
+# Các file tạm thời
+*.tsbuildinfo
