@@ -1,0 +1,60 @@
+# dir: ~/quangminh-smart-border/docker-compose.yml
+# Phiên bản chuẩn hóa và đơn giản hóa
+
+services:
+  # Service frontend (Next.js)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
+    container_name: quangminh_frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    # Truyền biến môi trường vào runtime cho Next.js server
+    environment:
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
+      
+  api:
+    build:
+      context: ./backend # Trỏ đến thư mục chứa backend
+      dockerfile: Dockerfile
+    container_name: quangminh_api
+    restart: always
+    ports:
+      - "3001:3000"
+    depends_on:
+      - db
+    volumes:
+      - ./backend/uploads:/app/uploads
+    # Docker Compose sẽ tự động đọc file .env ở thư mục gốc
+    # và truyền các biến môi trường vào container
+    environment:
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_EXPIRATION_TIME: ${JWT_EXPIRATION_TIME}
+      DB_HOST: db # Ghi đè DB_HOST để trỏ đến service 'db'
+      DB_PORT: ${DB_PORT}
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_DATABASE: ${DB_DATABASE}
+
+  db:
+    image: postgres:15-alpine
+    container_name: quangminh_db
+    restart: always
+    # Nó cũng sẽ đọc các biến này từ file .env ở thư mục gốc
+    environment:
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DATABASE}
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
