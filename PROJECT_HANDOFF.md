@@ -1030,38 +1030,35 @@ Tạo artifact ZIP từng app (chú ý: frontend cần `NEXT_PUBLIC_API_URL` + `
   - **Phase 3 (Backend CMS Modules & Additive Migration)**: Tạo 6 module NestJS mới (`AuditLogsModule` @Global, `SlidersModule`, `PartnersModule`, `CertificatesModule`, `GlobalSettingsModule`, `HealthModule`); Tạo TypeORM additive migration `1778000000000-AddCmsModulesAndAuditLogs.ts` (`CREATE TABLE IF NOT EXISTS` cho 6 bảng mới, tuyệt đối không drop/modify bảng cũ); Đăng ký đầy đủ trong `app.module.ts`.
   - **Phase 4 (Public Frontend Redesign & Brand Assets)**: Cập nhật màu nhận diện thương hiệu `#233871` Primary và `#0c9344` Secondary (loại bỏ dark mode theo yêu cầu); Tích hợp `LogoPreloader` hiệu ứng 1.2s SVG với cờ session storage và hỗ trợ `prefers-reduced-motion`; Cập nhật Header và Footer với Hotline chính thức `+84 865.865.600`, menu phân cấp 6 nhóm dịch vụ, link năng lực hạ tầng; Tích hợp 301 Redirects cho `/chinh-sach-bao-mat` -> `/dieu-khoan` trong `next.config.mjs`; Bổ sung CMS fetchers trong `data-fetchers.ts`.
   - **Phase 5 (Admin Panel BFF Proxy & RHF+Zod)**: Tạo Next.js BFF `middleware.ts` với `httpOnly` cookie bảo vệ toàn diện các route admin và proxy rewrite `/api-backend/*`; Tạo Auth route handlers (`/api/auth/login`, `/api/auth/logout`, `/api/auth/me`); Xây dựng bộ form wrapper RHF + Zod (`RHFInput`, `RHFSelect`, `RHFInputNumber`, `RHFSwitch`); Cập nhật giao diện Ant Design theme token `#233871`; Bổ sung menu `/consignments` vào Sidebar; Xây dựng đầy đủ các màn hình quản trị CRUD cho Sliders, Partners, Certificates, Global Settings, và Audit Logs.
-- Files changed:
-  - `backend/src/careers/careers.service.ts`, `backend/src/careers/careers.controller.ts`
-  - `backend/src/dashboard/dashboard.service.ts`
-  - `backend/src/main.ts`
-  - `backend/src/users/entities/user.entity.ts`, `backend/src/users/users.service.ts`
-  - `backend/Dockerfile`, `docker-compose.yml`
-  - `backend/src/audit-logs/*`, `backend/src/sliders/*`, `backend/src/partners/*`, `backend/src/certificates/*`, `backend/src/global-settings/*`, `backend/src/health/*`
-  - `backend/src/db/migrations/1778000000000-AddCmsModulesAndAuditLogs.ts`
-  - `backend/src/app.module.ts`
-  - `frontend/src/styles/theme.ts`
-  - `frontend/src/lib/data-fetchers.ts`
-  - `frontend/src/components/common/LogoPreloader.tsx`
-  - `frontend/src/app/[locale]/layout.tsx`
-  - `frontend/src/components/layout/Header/index.tsx`, `frontend/src/components/layout/Footer/index.tsx`
-  - `frontend/next.config.mjs`
-  - `admin-panel-frontend/src/middleware.ts`
-  - `admin-panel-frontend/src/app/api/auth/*`
-  - `admin-panel-frontend/src/components/ui/form/*`
-  - `admin-panel-frontend/src/configs/theme.ts`
-  - `admin-panel-frontend/src/app/(admin)/_components/AdminSidebar.tsx`
-  - `admin-panel-frontend/src/app/(admin)/sliders/page.tsx`
-  - `admin-panel-frontend/src/app/(admin)/partners/page.tsx`
-  - `admin-panel-frontend/src/app/(admin)/certificates/page.tsx`
-  - `admin-panel-frontend/src/app/(admin)/settings/page.tsx`
-  - `admin-panel-frontend/src/app/(admin)/audit-logs/page.tsx`
-- Tests/checks run:
-  - `backend`: `npm run build` -> Exit code 0 (thành công 100%)
-  - `frontend`: `npm run build` -> Exit code 0 (thành công 100%, tạo toàn bộ trang tĩnh & dynamic routes)
-  - `admin-panel-frontend`: `npm run build` -> Exit code 0 (thành công 100%, 20 routes quản trị sẵn sàng)
-- Results: Toàn bộ 3 ứng dụng đều build thành công không lỗi, an toàn trên nhánh `develop`.
-- Next step: Kiểm tra tích hợp end-to-end, xác nhận kiểm thử trước khi merge vào `main` để kích hoạt production auto-deploy trên Vercel & Render.
+- Files changed: Backend, Frontend, Admin Panel source files.
+- Tests/checks run: All 3 apps passed `npm run build` with Exit code 0.
 
+### Checkpoint 9 — Frontend Enterprise Redesign: Three.js 3D WebGL Digital Twin & Bright Spacious B2B Portal (2026-08-31)
+
+- Completed:
+  - **Three.js 3D WebGL Digital Twin Hub**: Xây dựng mô hình quả địa cầu kỹ thuật số tương tác (`SmartBorder3DHub.tsx`), mô phỏng trực quan các tuyến hành lang thương mại Tà Lùng — Thủy Khẩu — Hải Phòng — Nam Ninh với hiệu ứng hạt phân tử, đường cong Bezier phát sáng và gắn nhãn tương tác Raycasting khi hover.
+  - **Spacious Full-Width Enterprise Header**: Thiết kế lại toàn diện Header theo tiêu chuẩn tập đoàn logistics quốc tế (Sotrans / Viettel Logistics). Tích hợp Top Utility Bar (Hotline 24/7 `+84 865.865.600`, trực chiến cửa khẩu, tra cứu vận đơn nhanh, bộ chuyển đổi ngôn ngữ) và thanh điều hướng chính 84px rộng rãi, menu dropdown 6 nhóm dịch vụ chi tiết và nút CTA "Yêu Cầu Báo Giá" góc cạnh sắc nét.
+  - **Daylight Bright Theme & Crisp Rectilinear Architecture**: Loại bỏ hoàn toàn các nền tối u ám và bo góc tròn quá mức (loại bỏ kiểu dáng bubble/pill tròn trịa). Chuyển sang tông màu sáng ban ngày cao cấp (Pure White `#FFFFFF`, Soft Arctic Slate `#F8FAFC`, Navy `#233871` & Emerald `#0c9344`), border-radius chuẩn B2B doanh nghiệp (4px - 8px), đường viền sắc nét `1px solid #E2E8F0`.
+  - **6 Core Logistics Services & 6-Step Enterprise Workflow**: Thiết kế lại các thẻ dịch vụ và quy trình thông quan 6 bước với danh sách tính năng cụ thể, liên kết chi tiết và báo giá trực tiếp.
+  - **Instant Quotation & Live Tracking Widget**: Tích hợp widget tra cứu vận đơn đa phương tiện và form nhận báo giá B2B siêu tốc kết nối trực tiếp backend API.
+- Files changed:
+  - `frontend/src/components/3d/SmartBorder3DHub.tsx`
+  - `frontend/src/components/layout/Header/index.tsx`
+  - `frontend/src/components/layout/Footer/index.tsx`
+  - `frontend/src/components/sections/HomePage/HeroSection.tsx`
+  - `frontend/src/components/sections/HomePage/KpiSection.tsx`
+  - `frontend/src/components/sections/HomePage/QuickTrackerAndQuoteWidget.tsx`
+  - `frontend/src/components/sections/HomePage/WhyChooseUsSection.tsx`
+  - `frontend/src/components/sections/HomePage/FeaturedServicesSection.tsx`
+  - `frontend/src/components/sections/HomePage/ProcessSection.tsx`
+  - `frontend/src/components/sections/HomePage/PartnersSection.tsx`
+  - `frontend/src/app/[locale]/page.tsx`
+  - `frontend/next.config.mjs`
+- Tests/checks run:
+  - `frontend`: `npm run build` -> Exit code 0 (thành công 100%).
+  - Local Dev Servers: Frontend `http://localhost:3000` (200 OK), Backend `http://localhost:3005` (200 OK), Admin Panel `http://localhost:3002` (200 OK).
+- Results: Toàn bộ giao diện sáng sủa, thoáng đãng, sắc nét, đúng nhận diện thương hiệu Tà Lùng Quang Minh Logistics.
+- Next step: Sẵn sàng để chủ dự án trải nghiệm trực tiếp trên local và tiến hành merge `develop` -> `main`.
 
 ---
 
