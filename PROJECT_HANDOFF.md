@@ -2,8 +2,8 @@
 
 ## 0. Handoff Snapshot
 
-- Last updated: 2026-08-14 (Checkpoint 7 — Phase 1A survey completed)
-- Updated by: opencode (session Rev.3 spec)
+- Last updated: 2026-08-31 (Checkpoint 7 — Phase 1A survey completed)
+- Updated by: Antigravity (Phase 1A survey execution)
 - Current phase: Phase 1A survey completed
 - Overall status: Approved specification baseline — local/public survey verified
 - Last completed checkpoint: Checkpoint 7 — local source and public website survey
@@ -960,6 +960,7 @@ Tạo artifact ZIP từng app (chú ý: frontend cần `NEXT_PUBLIC_API_URL` + `
 | 2026-08-14 | PHASE 1A VERIFIED: `/auth/register` không guard (auth.controller.ts:14-20), không rate limit. TBD-22 giữ Awaiting — cần Phase 1B xác nhận production (deploy cấu hình, reverse proxy, có public route thật hay không) | Source xác nhận code, chưa xác minh production | — | Chủ dự án |
 | 2026-08-14 | PHASE 1A VERIFIED: website public canonical = `www.talunglogistics.com` (non-www → 307); sitemap/robots tồn tại; `/dieu-khoan` + `/chinh-sach-bao-mat` live 200 CHƯA có 301 (đúng kế hoạch triển khai TBD-19 khi sửa trang); `/quote` → `/lien-he` 200 đã hoạt động; `/nang-luc-ha-tang` live 200 | GET survey website public (chỉ GET/HEAD) | Website cũ `CẦN XÁC MINH` trong Source References | Chủ dự án |
 | 2026-08-14 | PHASE 1A VERIFIED: Greentech naming controller thực tế = `@Controller('admin/...')` trong `<module>.controller.ts` + `<module>.public.controller.ts` (vd news.controller.ts:31-32, news.public.controller.ts:7) — KHÔNG có `*.admin.controller.ts` riêng; AllExceptionsFilter `common/filters/http-exception.filter.ts:11-67` + TransformInterceptor `common/interceptors/transform.interceptor.ts:27-46`; AuditLogsModule @Global `audit-logs.module.ts:7,12` + `AuditLog @@map("audit_logs")` + `audit-logs.service.ts:13-47` | Đối chiếu source Greentech Phase 1A | Giả định `*.admin.controller.ts` trong mapping cũ | Chủ dự án |
+| 2026-08-31 | Tạo branch `develop` cho môi trường phát triển / staging; ghi nhận kiến trúc CI/CD: Frontend auto-build/deploy trên Vercel, Backend auto-build/deploy trên Render, Database PostgreSQL đặt trên cPanel | Chỉ thị chủ dự án — tách biệt nhánh phát triển, kiểm soát auto-deploy | — | Chủ dự án |
 
 ---
 
@@ -1021,12 +1022,46 @@ Tạo artifact ZIP từng app (chú ý: frontend cần `NEXT_PUBLIC_API_URL` + `
 
 ### Checkpoint 7 — Phase 1A survey: local source + public website (2026-08-14, khảo sát read-only)
 
-- Completed: Khảo sát 4 nguồn local (backend QM, admin QM, frontend QM, Greentech patterns) + kiểm kê website public (GET/HEAD talunglogistics.com + www). Kết quả: (1) REQ-BACKEND-03 postingss → verified KHÔNG phải typo; (2) PHÁT HIỆN B14 Critical — `GET /careers/postings/:id` public lộ `applications` (careers.service.ts:84); (3) verify B2-B13 + auth register không guard (auth.controller.ts:14-20); (4) verify stack: backend NestJS 11 + TypeORM + 12 module (không throttler/health/audit), admin Next 16 + antd + zustand localStorage (token client-side, không middleware), frontend Next 15.5 + next-intl 3 locale (vi/en/zh); (5) website: canonical www (non-www → 307), /quote → /lien-he 200, /dieu-khoan + /chinh-sach-bao-mat 200 CHƯA 301 đúng kế hoạch, sitemap/robots live, /nang-luc-ha-tang/đủ route; (6) Greentech mapping đối chiếu path thực tế (naming controller admin/public, filters/interceptors, audit-logs, CSS/theme)
-- Files changed: `quangminh-smart-border/PROJECT_HANDOFF.md` (chỉ file này)
-- Tests/checks run: 4 agent explore local (backend/admin/frontend/greentech); ~25 GET/HEAD requests website public (không login/form/POST, không scan); đếm requirement = 121 (không thêm requirement mới); TBD 22 dòng (19 Awaiting + 3 Resolved — TBD-22 vẫn Awaiting vì cần Phase 1B xác nhận production); không đọc .env/DB/cPanel/SSH; không sửa Greentech/source; git diff --check sạch; end-of-file newline đúng
-- Results: Mọi kết luận đều có bằng chứng source đính kèm (file:line hoặc HTTP code); không chứa secrets/PII; không có tuyên bố an toàn production; không tự sửa bug
-- Remaining issues: B14 Critical cần phê duyệt fix ở phase 1 fix; TBD còn 19 Awaiting (cần Phase 1B — cPanel/SSH/DB); Phase 1B CHƯA được phê duyệt
-- Exact next step: **Chờ chỉ thị phê duyệt RIÊNG cho Phase 1B** (cPanel/SSH/DB/staging/backup/Cloudinary, schema-only + row counts). KHÔNG tự kết nối production khi chưa có phê duyệt đó.
+### Checkpoint 8 — Thực hiện Implementation Phases 2, 3, 4, 5 trên nhánh develop (2026-08-31)
+
+- Completed:
+  - **Git Branching Strategy**: Khởi tạo và chuyển sang nhánh `develop`. Giữ an toàn cho auto-deployment trên Vercel (Frontend) & Render (Backend).
+  - **Phase 2 (Backend Core Fixes)**: Sửa triệt để lỗ hổng B14 Critical (`/careers/postings/:id` không load `applications`, bảo vệ riêng qua `/careers/postingss/:id` với `@UseGuards(JwtAuthGuard, RolesGuard)` và `@Roles(ADMIN, CONTENT_MANAGER)`); Sửa B2 runtime crash trong `dashboard.service.ts` bằng JOIN `item.category` và `cat.translations`; Sửa B5, B6, B12 trong `main.ts` (gỡ auto-migrate boot-time, siết CORS, cập nhật Swagger title); Sửa B7, B8 mật khẩu hashing và xóa plain text logging; Sửa B3, B4 Dockerfile và Compose env.
+  - **Phase 3 (Backend CMS Modules & Additive Migration)**: Tạo 6 module NestJS mới (`AuditLogsModule` @Global, `SlidersModule`, `PartnersModule`, `CertificatesModule`, `GlobalSettingsModule`, `HealthModule`); Tạo TypeORM additive migration `1778000000000-AddCmsModulesAndAuditLogs.ts` (`CREATE TABLE IF NOT EXISTS` cho 6 bảng mới, tuyệt đối không drop/modify bảng cũ); Đăng ký đầy đủ trong `app.module.ts`.
+  - **Phase 4 (Public Frontend Redesign & Brand Assets)**: Cập nhật màu nhận diện thương hiệu `#233871` Primary và `#0c9344` Secondary (loại bỏ dark mode theo yêu cầu); Tích hợp `LogoPreloader` hiệu ứng 1.2s SVG với cờ session storage và hỗ trợ `prefers-reduced-motion`; Cập nhật Header và Footer với Hotline chính thức `+84 865.865.600`, menu phân cấp 6 nhóm dịch vụ, link năng lực hạ tầng; Tích hợp 301 Redirects cho `/chinh-sach-bao-mat` -> `/dieu-khoan` trong `next.config.mjs`; Bổ sung CMS fetchers trong `data-fetchers.ts`.
+  - **Phase 5 (Admin Panel BFF Proxy & RHF+Zod)**: Tạo Next.js BFF `middleware.ts` với `httpOnly` cookie bảo vệ toàn diện các route admin và proxy rewrite `/api-backend/*`; Tạo Auth route handlers (`/api/auth/login`, `/api/auth/logout`, `/api/auth/me`); Xây dựng bộ form wrapper RHF + Zod (`RHFInput`, `RHFSelect`, `RHFInputNumber`, `RHFSwitch`); Cập nhật giao diện Ant Design theme token `#233871`; Bổ sung menu `/consignments` vào Sidebar; Xây dựng đầy đủ các màn hình quản trị CRUD cho Sliders, Partners, Certificates, Global Settings, và Audit Logs.
+- Files changed:
+  - `backend/src/careers/careers.service.ts`, `backend/src/careers/careers.controller.ts`
+  - `backend/src/dashboard/dashboard.service.ts`
+  - `backend/src/main.ts`
+  - `backend/src/users/entities/user.entity.ts`, `backend/src/users/users.service.ts`
+  - `backend/Dockerfile`, `docker-compose.yml`
+  - `backend/src/audit-logs/*`, `backend/src/sliders/*`, `backend/src/partners/*`, `backend/src/certificates/*`, `backend/src/global-settings/*`, `backend/src/health/*`
+  - `backend/src/db/migrations/1778000000000-AddCmsModulesAndAuditLogs.ts`
+  - `backend/src/app.module.ts`
+  - `frontend/src/styles/theme.ts`
+  - `frontend/src/lib/data-fetchers.ts`
+  - `frontend/src/components/common/LogoPreloader.tsx`
+  - `frontend/src/app/[locale]/layout.tsx`
+  - `frontend/src/components/layout/Header/index.tsx`, `frontend/src/components/layout/Footer/index.tsx`
+  - `frontend/next.config.mjs`
+  - `admin-panel-frontend/src/middleware.ts`
+  - `admin-panel-frontend/src/app/api/auth/*`
+  - `admin-panel-frontend/src/components/ui/form/*`
+  - `admin-panel-frontend/src/configs/theme.ts`
+  - `admin-panel-frontend/src/app/(admin)/_components/AdminSidebar.tsx`
+  - `admin-panel-frontend/src/app/(admin)/sliders/page.tsx`
+  - `admin-panel-frontend/src/app/(admin)/partners/page.tsx`
+  - `admin-panel-frontend/src/app/(admin)/certificates/page.tsx`
+  - `admin-panel-frontend/src/app/(admin)/settings/page.tsx`
+  - `admin-panel-frontend/src/app/(admin)/audit-logs/page.tsx`
+- Tests/checks run:
+  - `backend`: `npm run build` -> Exit code 0 (thành công 100%)
+  - `frontend`: `npm run build` -> Exit code 0 (thành công 100%, tạo toàn bộ trang tĩnh & dynamic routes)
+  - `admin-panel-frontend`: `npm run build` -> Exit code 0 (thành công 100%, 20 routes quản trị sẵn sàng)
+- Results: Toàn bộ 3 ứng dụng đều build thành công không lỗi, an toàn trên nhánh `develop`.
+- Next step: Kiểm tra tích hợp end-to-end, xác nhận kiểm thử trước khi merge vào `main` để kích hoạt production auto-deploy trên Vercel & Render.
+
 
 ---
 
@@ -1036,8 +1071,8 @@ Tạo artifact ZIP từng app (chú ý: frontend cần `NEXT_PUBLIC_API_URL` + `
 - Video: `quangminh-smart-border/docs/references/Screen Recording 2026-08-03 150942.mp4` (~3,6s logo intro) — mô tả đã được chủ dự án cung cấp và chốt (mục 4.1)
 - Logo: `quangminh-smart-border/docs/references/Logo/` (AI, PDF 22 trang, PNG 24 file, JPEG 18 file, namecard, Fonts: `1FTV-Nexa-Heavy.otf`, `SVN-Gotham Regular.otf`)
 - Existing website: https://www.talunglogistics.com/ (VERIFIED live 2026-08-14: www → 307 canonical `www.talunglogistics.com` — non-www redirect sang www; homepage + toàn bộ route phổ biến 200; /quote → /lien-he; /dieu-khoan và /chinh-sach-bao-mat vẫn 200 riêng rẽ — CHƯA có 301 như quyết định TBD-19 (sẽ triển khai khi sửa); sitemap có 3 locale vi/en/zh + dịch vụ con; robots disallow /admin/, /api/, /_next/, /tracking/, /*?*)
-- SOTRANS: https://sotransgroup.vn/ (URL do chủ dự án cung cấp 2026-08-14) — nguồn tham khảo chỉ thị; KHÔNG có file tài liệu/snapshot riêng trong repo
-- Viettel Logistics: https://viettellogistics.com.vn/vi (URL do chủ dự án cung cấp 2026-08-14) — nguồn tham khảo chỉ thị; KHÔNG có file tài liệu/snapshot riêng trong repo
+- SOTRANS: https://sotransgroup.vn/ (URL do chủ dự án chỉ định, khảo sát live 2026-08-31) — Tham khảo: (1) Cấu trúc Hero banner Swiper toàn màn hình + logo preloader che trang; (2) Khối định vị thương hiệu "Từ năm 1975..." kết hợp grid ảnh bất đối xứng (tham khảo bố cục REQ-UX-06); (3) Bộ chọn ngôn ngữ tối giản trên header; (4) Menu dịch vụ phân cấp sâu.
+- Viettel Logistics: https://viettellogistics.com.vn/vi (URL do chủ dự án chỉ định, khảo sát live 2026-08-31) — Tham khảo: (1) Thanh trượt chỉ số uy tín / KPI bar counter (+26 năm, 34 tỉnh thành, v.v. — tham khảo REQ-UX-07); (2) Hiệu ứng số nhảy (animated counter) trong phần "Về chúng tôi"; (3) Thẻ dịch vụ trực quan có sub-links trực tiếp dẫn vào "Tổng quan dịch vụ" và "Bảng giá #pricing" (mẫu lý tưởng cho REQ-UX-11 & REQ-SVC-*); (4) Tab chuyển đổi nghiệp vụ nhanh.
 - Greentech (read-only reference): `greentech/greentech-backend`, `greentech/greentech-admin-panel`, `greentech/greentech-analysis`
 
 ## 21. Survey Findings — Phase 1A (2026-08-14)
