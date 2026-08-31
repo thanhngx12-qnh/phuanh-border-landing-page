@@ -36,6 +36,7 @@ services:
     environment:
       JWT_SECRET: ${JWT_SECRET}
       JWT_EXPIRATION_TIME: ${JWT_EXPIRATION_TIME}
+      DATABASE_URL: postgres://${DB_USERNAME}:${DB_PASSWORD}@db:5432/${DB_DATABASE}
       DB_HOST: db # Ghi đè DB_HOST để trỏ đến service 'db'
       DB_PORT: ${DB_PORT}
       DB_USERNAME: ${DB_USERNAME}
