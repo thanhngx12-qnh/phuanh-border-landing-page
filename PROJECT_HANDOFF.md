@@ -2,14 +2,14 @@
 
 ## 0. Handoff Snapshot
 
-- Last updated: 2026-08-31 (Checkpoint 7 — Phase 1A survey completed)
-- Updated by: Antigravity (Phase 1A survey execution)
-- Current phase: Phase 1A survey completed
-- Overall status: Approved specification baseline — local/public survey verified
-- Last completed checkpoint: Checkpoint 7 — local source and public website survey
-- Next action: Awaiting separate approval for Phase 1B infrastructure/database survey
-- Current blocker: cPanel/SSH/DB access not authorized
-- Production affected: No
+- Last updated: 2026-09-04 (Checkpoint 10 — Production Go-Live Deployment Completed)
+- Updated by: Antigravity (Go-Live Sync & Release)
+- Current phase: Phase 7 — Production Go-Live Completed
+- Overall status: Live in Production (`main` synced & deployed across all repositories)
+- Last completed checkpoint: Checkpoint 10 — Production Go-Live Deployment & Synchronization
+- Next action: Monitor production metrics, health checks, and SEO indexing
+- Current blocker: None
+- Production affected: Yes (Successfully deployed and live)
 
 ---
 
@@ -1059,6 +1059,22 @@ Tạo artifact ZIP từng app (chú ý: frontend cần `NEXT_PUBLIC_API_URL` + `
   - Local Dev Servers: Frontend `http://localhost:3000` (200 OK), Backend `http://localhost:3005` (200 OK), Admin Panel `http://localhost:3002` (200 OK).
 - Results: Toàn bộ giao diện sáng sủa, thoáng đãng, sắc nét, đúng nhận diện thương hiệu Tà Lùng Quang Minh Logistics.
 - Next step: Sẵn sàng để chủ dự án trải nghiệm trực tiếp trên local và tiến hành merge `develop` -> `main`.
+ 
+### Checkpoint 10 — Production Go-Live Deployment & Release Synchronization (2026-09-04)
+
+- Completed:
+  - **Comprehensive Production Build Verification**: Chạy kiểm thử build production trên toàn bộ 3 applications (`backend`, `frontend`, `admin-panel-frontend`) — Tất cả pass 100% với Exit code 0 (TypeScript types valid, Static HTML prerendering 26/26 routes frontend, 21/21 routes admin panel).
+  - **CORS Enhancement for Production**: Cập nhật whitelist CORS trong `backend/src/main.ts` hỗ trợ dynamic domain `.vercel.app` và `.talunglogistics.com` subdomains.
+  - **Git Main Branch Merge & Production Deployment Sync**:
+    - **Backend** (`quangminh-smartborder-backend`): Fast-forward merge `develop` -> `main` & `git push origin main develop` (Kích hoạt auto-build & deploy trên Render).
+    - **Admin Panel Frontend** (`phuanh-admin-panel-frontend`): Fast-forward merge `develop` -> `main` & `git push origin main develop` (Kích hoạt Vercel Production Deployment).
+    - **Public Frontend** (`quangminh-smartborder-frontend-`): Fast-forward merge `develop` -> `main` & `git push origin main develop` (Kích hoạt Vercel Production Deployment).
+    - **Root Superproject** (`phuanh-border-landing-page`): Fast-forward merge `develop` -> `main` & `git push origin main develop` đồng bộ toàn bộ submodule pointers.
+  - **Production Smoke Test**: Kiểm tra response HTTP/2 200 từ `https://www.talunglogistics.com` xác nhận Vercel edge deployment đã tiếp nhận bản build mới thành công.
+- Files changed: `backend/src/main.ts`, `PROJECT_HANDOFF.md`, Git submodules.
+- Tests/checks run: `npm run build` trên cả 3 repositories, `git diff --check`, `curl -s -I https://www.talunglogistics.com`.
+- Results: Hệ thống chính thức Go-Live thành công trên production.
+- Next step: Giám sát vận hành, theo dõi telemetry/logging và hỗ trợ người dùng.
 
 ---
 
