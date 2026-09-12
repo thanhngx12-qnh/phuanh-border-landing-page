@@ -1238,3 +1238,22 @@ Thực hiện yêu cầu của khách hàng ("Logo single thì đi từ bên tr�
    - Gỡ bỏ giới hạn `sessionStorage`, preloader luôn hiển thị sống động mỗi khi người dùng tải lại trang (F5 / reload).
 5. **Kiểm Thử Trực Quan**:
    - Đã kiểm tra qua headless browser và chụp ảnh giao diện thực tế (`preloader_screen_1789209681169.png`), hiệu ứng bay từ hai phía và quét sáng vô cùng cuốn hút.
+
+## 28. Checkpoint 17 — Nâng Cấp Tùy Chọn Icon Dịch Vụ Admin Panel & Tiêu Đề Động Linh Hoạt (2026-09-12)
+
+Thực hiện yêu cầu của khách hàng ("phần này là cố định 6 cái à? sau này k thêm đc à? những chỗ icon này ng dùng k set đc à? chốt cách 1 đi"):
+
+1. **Cơ Sở Dữ Liệu & Backend**:
+   - Thêm cột `icon VARCHAR(50)` vào bảng `services` trong PostgreSQL.
+   - Bổ sung trường `icon` vào `Service` entity (`backend/src/services/entities/service.entity.ts`).
+   - Cập nhật `CreateServiceDto` và `UpdateServiceDto` hỗ trợ validation và lưu trữ `icon`.
+   - Cập nhật dữ liệu mặc định ban đầu cho 6 dịch vụ cốt lõi: `shield`, `exchange`, `warehouse`, `truck`, `bus`, `global`.
+2. **Trang Quản Trị Admin (`admin-panel-frontend`)**:
+   - **Form Dịch Vụ (`ServiceFormDrawer.tsx`)**: Tích hợp bộ chọn `Select` **"Icon biểu trưng"** với 17 biểu tượng Logistics thông dụng (Hải quan 🛡️, Kho bãi 🏢, Xe container 🚛, Sang tải 🔄, Bến xe 🚌, Chuỗi cung ứng 🌐, Lưu CFS 📦, Cẩu hàng ⚓, Đường biển 🚢, Hàng không ✈️, Trạm cân ⚖️, C/O Form E 🏆, Cửa khẩu 🏛️, An ninh 🔒, Kho lạnh ❄️, Siêu tốc ⚡, GPS 🗺️).
+   - **Bảng Danh Sách (`ServicesPage`)**: Bổ sung cột **Icon** hiển thị trực quan biểu tượng tương ứng của từng dịch vụ.
+3. **Giao Diện Trang Chủ (`frontend`)**:
+   - **Tiêu Đề Động**: Tự động đếm theo số lượng dịch vụ thực tế từ API (`{services.length} Nhóm Dịch Vụ Toàn Diện Tại Cửa Khẩu Tà Lùng`), không còn bị cứng nhắc số 6 khi người dùng thêm/bớt dịch vụ trong Admin.
+   - **Render Icon Chuẩn**: Xây dựng tiện ích `getServiceIcon(iconKey)` liên kết chuỗi `icon` từ Backend API sang bộ icon vector chất lượng cao của `react-icons/ri` với fallback thông minh.
+4. **Kiểm Thử & Đồng Bộ Git**:
+   - TypeScript kiểm tra 0 lỗi trên cả `backend`, `admin-panel-frontend`, và `frontend`.
+   - Kiểm tra trình duyệt thực tế ghi nhận 6 thẻ dịch vụ hiển thị đầy đủ icon riêng biệt sắc nét và tiêu đề tự động cập nhật (`featured_services_full_1789210697094.png`).
