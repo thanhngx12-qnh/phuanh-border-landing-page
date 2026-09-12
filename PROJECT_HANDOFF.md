@@ -1115,3 +1115,25 @@ Tạo artifact ZIP từng app (chú ý: frontend cần `NEXT_PUBLIC_API_URL` + `
 | SF-21 | `greentech/greentech-backend/src/common/filters/http-exception.filter.ts:11-67` + `common/interceptors/transform.interceptor.ts:27-46` | AllExceptionsFilter map Prisma P2025→404, P2002→409, 429, validation; output `{success,statusCode,errorCode,message,path,timestamp}`; TransformInterceptor | Thông tin | 6 (REQ-BACKEND-08/09) | Viết lại theo TypeORM (23505/22P02), đã ghi mapping |
 | SF-22 | `greentech/greentech-backend/src/modules/audit-logs/` (module.ts:7,12 @Global) + `prisma/schema.prisma:47-61` (`AuditLog @@map("audit_logs")`) + `audit-logs.service.ts:13-47` | AuditLogsModule @Global verified | Thông tin | 6, REQ-BACKEND-08 | Reference hợp lệ cho phase 5 |
 | SF-23 | Greentech backend KHÔNG có `.env.example` (chỉ `.env`/`.env.local` — KHÔNG đọc nội dung) | Không thể đối chiếu env keys từ repo; giữ TBD-07 / Phase 1B | Thông tin | TBD-07 | Phase 1B xác nhận qua cPanel |
+
+## 22. Checkpoint 11 — Tắt/Ẩn Toàn Bộ Hiển Thị Tra Cứu Vận Đơn & Nâng Cấp Báo Giá Nhanh B2B (2026-09-12)
+
+Theo yêu cầu trực tiếp từ khách hàng ("hiện tại chưa có phần vận đơn nên ẩn giúp tôi"), toàn bộ các điểm chạm hiển thị công khai liên quan đến **Tra Cứu Vận Đơn / AWB Tracking** đã được ẩn và điều chỉnh:
+
+1. **Header Navigation & TopBar**:
+   - Gỡ link `Tra Cứu Vận Đơn` trong TopBar tiện ích bên phải.
+   - Bỏ `Tra Cứu` khỏi thanh điều hướng chính (`NavWingRight`), cân đối bố cục hoàn hảo giữa cánh trái (Trang chủ, Giới thiệu, Dịch vụ, Năng lực 25ha) và cánh phải (Tin tức, Tuyển dụng, Liên hệ, nút CTA Báo giá).
+   - Gỡ mục `Tra Cứu Vận Đơn` trong Mobile Drawer.
+2. **Hero Slider Banner**:
+   - Slide 2: Đổi nút phụ từ `Tra Cứu Vận Đơn` sang `Dịch Vụ Hải Quan` trỏ trực tiếp đến `/services/dich-vu-dai-ly-hai-quan`.
+3. **Widget Trang Chủ (QuickTrackerAndQuoteWidget)**:
+   - Loại bỏ hoàn toàn tab và form tra cứu mã vận đơn/biển số xe.
+   - Nâng cấp thành widget chuyên biệt: **"Báo Giá Nhanh B2B & Tư Vấn Cửa Khẩu Tà Lùng 24/7"**.
+   - Thiết kế dạng thẻ bo tròn cao cấp, gồm: Họ tên/Doanh nghiệp, Số điện thoại/Zalo, Email liên hệ, Dropdown chọn mặt hàng/nhu cầu, cùng nút CTA "Nhận Báo Giá".
+   - Tự động gửi dữ liệu về API `POST /quotes` trên backend với validation hợp lệ và hiển thị thông báo gửi thành công tức thì.
+4. **Footer**:
+   - Thay thế link `Tra Cứu Vận Đơn` bằng `Yêu Cầu Báo Giá & Tư Vấn` trỏ về `/contact`.
+5. **Kiểm thử & Đồng bộ Git**:
+   - Build production `npm run build` thành công 100% (26/26 routes).
+   - Xác minh hiển thị trực quan qua browser headless screenshot (`b2b_quick_quote_widget_1789204245571.png`).
+   - Đã commit và đồng bộ lên branch `develop` & `main` của repo `frontend` và superproject.
