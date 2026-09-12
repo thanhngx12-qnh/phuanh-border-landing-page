@@ -1166,3 +1166,23 @@ Theo yêu cầu trực tiếp từ khách hàng ("hiện tại chưa có phần 
    - Next.js 15.5.9 production build (`npm run build`) hoàn thành thành công 100% với 26/26 routes (0 lỗi, 0 cảnh báo lint).
    - Kiểm tra trực quan bằng subagent headless browser đạt độ hoàn mỹ cao trên mọi phân đoạn (`header_hero_top_view_1789205979197.png`, `featured_services_section_view_1789205763528.png`, `latest_news_section_centered_1789205796582.png`).
 
+## 24. Checkpoint 13 — Tích Hợp Tìm Kiếm Toàn Diện (Search Modal) & Nâng Tầm Thẩm Mỹ Header Đẳng Cấp Doanh Nghiệp (2026-09-12)
+
+Khắc phục phản hồi của khách hàng ("Header giờ lại quá cơ bản, còn mất phần tìm kiếm của tôi nữa chứ"):
+
+1. **Khôi Phục & Nâng Cấp Tính Năng Tìm Kiếm Tức Thì (Instant Search)**:
+   - Tích hợp nút tìm kiếm dạng capsule hiện đại trên thanh điều hướng chính (`[ 🔍 Tìm kiếm...  ⌘K ]`) và link tra cứu nhanh trên TopBar.
+   - Hỗ trợ phím tắt toàn cục `Cmd+K` / `Ctrl+K`: Người dùng bấm phím tắt ở bất cứ đâu trên trang đều mở ngay hộp tìm kiếm.
+   - Tích hợp `SearchModal`: Tìm kiếm real-time với backend API, nhóm kết quả rõ ràng theo **Dịch Vụ**, **Tin Tức Thị Trường** và **Tuyển Dụng** kèm icon và điều hướng chuẩn SEO.
+   - Bổ sung ô tìm kiếm trong cả Mobile Drawer trên thiết bị di động.
+2. **Nâng Tầm Thẩm Mỹ Header (Rich Enterprise Aesthetics)**:
+   - **Logo & Nhận Diện**: Thêm vạch phân cách tinh tế cùng khối nhận diện năng lực doanh nghiệp (*TỔ HỢP 25HA / CỬA KHẨU QUỐC TẾ TÀ LÙNG*), tạo cảm giác uy tín và quy mô lớn.
+   - **TopBar Tiện Ích**: Nền chuyển sắc Midnight Navy cao cấp, bổ sung hải đăng xanh nhấp nháy phát quang (`● Trực chiến hải quan 24/7`), Hotline dạng pill tag sắc nét.
+   - **Menu Điều Hướng**: Hiển thị thẻ nổi bật `25HA` bên cạnh Năng Lực 25ha, dropdown Megamenu 2 cột với icon nổi trong nền gradient cho 6 dịch vụ và chân trang tư vấn trực tiếp 24/7.
+   - **Hiệu Ứng Nút CTA**: Nút `LIÊN HỆ` với dải ánh kim (shimmer animation) khi hover, bo góc chuẩn, đổ bóng phát sáng xanh lá.
+   - **Hiệu Ứng Cuộn**: Mặt kính mờ (Frosted Glass) `backdrop-filter: blur(16px)` khi cuộn trang, tự động thu nhỏ độ cao từ 82px về 74px nhịp nhàng.
+3. **Kiểm Thử & Xác Nhận**:
+   - Production build `npm run build` hoàn thành 100% không lỗi (26/26 routes, 0 warning).
+   - Kiểm tra headless browser xác nhận tương tác mở Search Modal, gõ từ khóa và hiển thị kết quả thành công rực rỡ (`rich_header_top_1789206699726.png`, `search_modal_results_1789206803139.png`).
+
+
