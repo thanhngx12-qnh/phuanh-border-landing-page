@@ -2,14 +2,14 @@
 
 ## 0. Handoff Snapshot
 
-- Last updated: 2026-09-04 (Checkpoint 10 — Production Go-Live Deployment Completed)
-- Updated by: Antigravity (Go-Live Sync & Release)
-- Current phase: Phase 7 — Production Go-Live Completed
-- Overall status: Live in Production (`main` synced & deployed across all repositories)
-- Last completed checkpoint: Checkpoint 10 — Production Go-Live Deployment & Synchronization
-- Next action: Monitor production metrics, health checks, and SEO indexing
+- Last updated: 2026-09-12 (Checkpoint 18 — Enterprise Design System Specification Extracted from Homepage)
+- Updated by: Antigravity (Design System Architecture)
+- Current phase: Phase 8 — Multi-Page Enterprise Alignment
+- Overall status: Live in Production & Sub-Pages Design System Extracted
+- Last completed checkpoint: Checkpoint 18 — Enterprise Design System Specification Extracted from Homepage
+- Next action: Implement and standardize sub-pages according to Design System
 - Current blocker: None
-- Production affected: Yes (Successfully deployed and live)
+- Production affected: Sub-pages UI/UX rollout ready
 
 ---
 
@@ -1257,3 +1257,29 @@ Thực hiện yêu cầu của khách hàng ("phần này là cố định 6 cá
 4. **Kiểm Thử & Đồng Bộ Git**:
    - TypeScript kiểm tra 0 lỗi trên cả `backend`, `admin-panel-frontend`, và `frontend`.
    - Kiểm tra trình duyệt thực tế ghi nhận 6 thẻ dịch vụ hiển thị đầy đủ icon riêng biệt sắc nét và tiêu đề tự động cập nhật (`featured_services_full_1789210697094.png`).
+
+## 29. Checkpoint 18 — Trích Xuất & Chuẩn Hóa Hệ Thống Thiết Kế Doanh Nghiệp (Enterprise Design System Specification) (2026-09-12)
+
+Thực hiện yêu cầu của khách hàng ("trích xuất trang chủ này để ra cái system design chuẩn để các trang khác flow theo"):
+
+1. **Bản Đặc Tả Hệ Thống Thiết Kế (`docs/DESIGN_SYSTEM_SPECIFICATION.md`)**:
+   - Biên soạn hoàn chỉnh tài liệu Design System đóng vai trò là kim chỉ nam (Single Source of Truth) cho toàn bộ các trang con (`/gioi-thieu`, `/dich-vu`, `/nang-luc-ha-tang`, `/tin-tuc`, `/tuyen-dung`, `/lien-he`, các trang chi tiết).
+   - **Nguyên tắc cốt lõi**:
+     - Vị thế Logistics cấp quốc gia, dứt khoát, công nghiệp hiện đại.
+     - **Strict Light Mode** (nghiêm cấm Dark Mode theo REQ-BRAND-03).
+     - **Strict 16:9 Aspect Ratio** cho toàn bộ media cards, thumbnails, banner.
+     - **Rhythm & Grid 1440px**: Container tối đa `1440px`, padding section `90px 24px` (Desktop) / `60px 16px` (Mobile), đan xen nhịp điệu nền `#FFFFFF` và `#F8FAFC`.
+     - Chuyển động vi mô mượt mà với bezier `cubic-bezier(0.16, 1, 0.3, 1)`, hover translateY(-6px), zoom ảnh 1.06, hiệu ứng ánh bạc quét chéo (shimmer).
+2. **Hệ Màu Tokens & Typography**:
+   - Primary Navy: `#233871`, Deep Navy `#1A2B56` / `#0F1D36`.
+   - Accent Emerald: `#0c9344` (Tuyệt đối không dùng `#0b9444`).
+   - Phông chữ tiêu đề: `Montserrat` (hoặc `Nexa Heavy`) 800/900.
+   - Phông chữ nội dung: `Inter` (hoặc `SVN-Gotham`) 400/500/600.
+3. **Mẫu Component Chuẩn (Blueprints)**:
+   - **Sub-Page Hero Banner**: Chiều cao `240px - 320px`, nền Deep Navy mesh, Breadcrumbs JSON-LD Schema, Category Pill, Tiêu đề H1 lớn, tóm tắt dẫn nhập.
+   - **Enterprise Card 16:9 Pattern**: Thẻ viền `#E2E8F0`, ảnh 16:9 có gradient chân, Floating Category Tag, Icon Badge 44x44px đổi màu khi hover, Box tính năng bullet points, Chân thẻ phân tách hairline với CTA link.
+   - **Section Header Block**: Category eyebrow in hoa màu xanh `#0c9344`, H2 tiêu đề lớn, lead paragraph, nút "Xem tất cả" chuyển hướng.
+   - **Header Kép & SearchModal**: Logo đơn + Lable-header, Search Capsule `[ 🔍 Tìm kiếm... ⌘K ]`, CTA Contact shimmer.
+   - **Preloader Hội Tụ**: Logo bay từ trái, Label bay từ phải, slogan "TRUNG TÂM LOGISTICS TẠI CỬA KHẨU QUỐC TẾ TÀ LÙNG".
+4. **Đồng Bộ Code & Tiện Ích**:
+   - Cập nhật class tiện ích `.container` trong `frontend/src/styles/GlobalStyles.ts` lên chuẩn `max-width: 1440px;` đồng bộ tuyệt đối với toàn bộ các thành phần trên web.
