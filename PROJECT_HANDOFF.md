@@ -1200,3 +1200,21 @@ Thực hiện yêu cầu của khách hàng ("Chỗ TỔ HỢP 25HA CỬA KHẨU
 3. **Kiểm Thử Trực Quan (Browser Verification)**:
    - Xác nhận trên môi trường thực tế tại `http://localhost:3000/`.
    - Ảnh chụp giao diện thực tế ghi nhận tải thành công HTTP 200, hình ảnh sắc nét, không bị kéo dãn méo hình, căn lề hoàn hảo bên cạnh thanh tìm kiếm `⌘K` và menu điều hướng (`header_new_logo_label_1789208303772.png`).
+
+## 26. Checkpoint 15 — Tinh Gọn TopBar & Menu Điều Hướng ("Năng Lực" & Giữ Nút Tìm Kiếm ⌘K) (2026-09-12)
+
+Thực hiện yêu cầu của khách hàng ("bỏ chỗ trực chiến 24/7, 25ha ở năng lực chỉ ghi năng lực thôi, chỉ giữ lại tìm kiếm bỏ tra cứu"):
+
+1. **Tinh Gọn TopBar Tiện Ích**:
+   - Loại bỏ huy hiệu `Trực chiến hải quan 24/7` và hiệu ứng xung nhịp `pulseGlow`.
+   - Loại bỏ nút `Tra cứu ⌘K` ở góc phải TopBar.
+   - Giữ lại đầy đủ: Địa chỉ Cửa khẩu Quốc tế Tà Lùng, Phục Hòa, Cao Bằng; Hotline `+84 865.865.600`; Bộ chuyển ngôn ngữ `LanguageSwitcher` (`🇻🇳 VI`).
+2. **Chuẩn Hóa Menu "Năng Lực" (Desktop & Mobile Drawer)**:
+   - Thay thế liên kết `Năng Lực 25ha [25HA]` thành chỉ **`Năng Lực`** trên thanh điều hướng chính và Mobile Drawer.
+   - Loại bỏ thẻ badge phụ `25HA`.
+   - Bổ sung khóa dịch đa ngôn ngữ i18n: `infrastructure: "Năng Lực"` (VI), `"Capacity"` (EN), `"企业实力"` (ZH).
+3. **Giữ Nguyên Nút Tìm Kiếm Tức Thì (Instant Search ⌘K)**:
+   - Duy trì ô tìm kiếm viên thuốc hiện đại `[ 🔍 Tìm kiếm...  ⌘K ]` ở thanh điều hướng chính cạnh nút `LIÊN HỆ ->`.
+4. **Kiểm Thử Trực Quan & Build**:
+   - `npx tsc --noEmit` đạt 0 lỗi.
+   - Kiểm tra headless browser xác nhận giao diện mới tinh gọn, sắc sảo, nút tìm kiếm mở Search Modal bình thường (`header_updated_verification_1789208893946.png`, `search_modal_open_1789208913570.png`).
