@@ -1137,3 +1137,32 @@ Theo yêu cầu trực tiếp từ khách hàng ("hiện tại chưa có phần 
    - Build production `npm run build` thành công 100% (26/26 routes).
    - Xác minh hiển thị trực quan qua browser headless screenshot (`b2b_quick_quote_widget_1789204245571.png`).
    - Đã commit và đồng bộ lên branch `develop` & `main` của repo `frontend` và superproject.
+
+## 23. Checkpoint 12 — Tái Cấu Trúc Header Doanh Nghiệp Chuẩn, Thống Nhất Ảnh Dịch Vụ 16:9, Bổ Sung Khối Tin Tức Trang Chủ & Tối Giản Luồng Liên Hệ (2026-09-12)
+
+Đáp ứng đầy đủ các yêu cầu điều chỉnh giao diện trực quan từ chủ sở hữu:
+
+1. **Tối Giản Luồng Liên Hệ & Bỏ Widget Báo Giá B2B Ngoài Trang Chủ**:
+   - Khách hàng xác nhận không cần form/widget báo giá nhanh phức tạp ngoài trang chủ ("Dịch vụ / Mặt hàng quan tâm, bỏ báo giá B2B nhanh này đi, chỉ giữ lại cái liên hệ là ok r").
+   - Gỡ bỏ hoàn toàn `QuickTrackerAndQuoteWidget` trên trang chủ, tập trung chuyển đổi vào nút CTA `Liên Hệ` trỏ trực tiếp về trang liên hệ chính thức `/contact` (kèm Hotline +84 865.865.600 và Zalo/Email tiện ích).
+2. **Tái Thiết Kế Thanh Header Doanh Nghiệp (Khắc Phục Hoàn Toàn Lỗi Bị Kéo Dãn / "Nhễ Ra")**:
+   - Loại bỏ cơ chế chia 2 cánh đối xứng trước đây (vốn đẩy menu dạt về hai rìa ngoài cùng và tạo khoảng trống lớn ở giữa).
+   - Thiết lập cấu trúc chuẩn nhận diện B2B:
+     - **Bên Trái**: Logo chính thức đầy đủ màu sắc thương hiệu `/images/logo-01.png` (Biểu tượng núi & xe kết hợp chữ "TÀ LÙNG QUANG MINH LOGISTICS").
+     - **Ở Giữa / Phải**: Cụm menu điều hướng thống nhất, khoảng cách nhịp nhàng (Trang chủ, Giới Thiệu, Dịch Vụ kèm dropdown 6 dịch vụ, Năng Lực 25ha, Tin Tức, Tuyển Dụng).
+     - **Bên Phải**: Nút CTA nổi bật xanh lá `#0c9344` với nội dung `LIÊN HỆ →`.
+     - **TopBar Tiện Ích**: Căn chỉnh độ rộng 1440px đồng bộ, hiển thị địa chỉ Cửa khẩu Tà Lùng, trực chiến 24/7, hotline và bộ chuyển ngôn ngữ (VI/EN/ZH).
+3. **Thống Nhất Kích Thước Ảnh Khối 6 Nhóm Dịch Vụ Theo Tỷ Lệ Chuẩn Landscape 16:9**:
+   - Cập nhật khung hình thẻ dịch vụ tại `FeaturedServicesSection.tsx` sử dụng thuộc tính CSS `aspect-ratio: 16 / 9; object-fit: cover;`.
+   - 6 thẻ dịch vụ (Đại lý hải quan, Kho bãi 25ha, Sang tải cơ giới, Vận tải quốc tế, Bến xe điều phối, Logistics trọn gói) đạt độ đồng đều 100%, sắc nét và chuẩn bố cục truyền thông.
+4. **Bổ Sung Khối Tin Tức Ra Ngoài Trang Chủ (`LatestNewsSection`)**:
+   - Đưa phân mục Tin Tức & Hoạt Động Cửa Khẩu Tà Lùng lên vị trí trang trọng ngoài trang chủ (ngay sau Quy trình làm việc 4 bước).
+   - Thiết kế giao diện daylight sáng sủa, thẻ tin tức chuẩn tỷ lệ landscape 16:9, kèm huy hiệu phân loại (Chính Sách & Cửa Khẩu, Tin Tức & Sự Kiện, Nghiệp Vụ Logistics), ngày đăng và thời gian cập nhật 24/7.
+   - Bổ sung dữ liệu dự phòng (fallback) từ các bài viết thực tế trên website `talunglogistics.com` để không bao giờ bị rỗng hoặc nhấp nháy khi tải.
+5. **Tối Ưu Hiệu Ứng Chuyển Đổi Banner Hero Slider**:
+   - Đưa khung ảnh visual banner về chuẩn 16:9 (`aspect-ratio: 16 / 9`).
+   - Cấu hình `AnimatePresence initial={false}` chuyển đổi crossfade mượt mà, loại bỏ triệt để hiện tượng nhấp nháy khung xám giữa các slide.
+6. **Kiểm Thử & Build Production**:
+   - Next.js 15.5.9 production build (`npm run build`) hoàn thành thành công 100% với 26/26 routes (0 lỗi, 0 cảnh báo lint).
+   - Kiểm tra trực quan bằng subagent headless browser đạt độ hoàn mỹ cao trên mọi phân đoạn (`header_hero_top_view_1789205979197.png`, `featured_services_section_view_1789205763528.png`, `latest_news_section_centered_1789205796582.png`).
+
