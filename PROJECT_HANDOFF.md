@@ -1218,3 +1218,23 @@ Thực hiện yêu cầu của khách hàng ("bỏ chỗ trực chiến 24/7, 25
 4. **Kiểm Thử Trực Quan & Build**:
    - `npx tsc --noEmit` đạt 0 lỗi.
    - Kiểm tra headless browser xác nhận giao diện mới tinh gọn, sắc sảo, nút tìm kiếm mở Search Modal bình thường (`header_updated_verification_1789208893946.png`, `search_modal_open_1789208913570.png`).
+
+## 27. Checkpoint 16 — Nâng Cấp Hiệu Ứng Mở Đầu (Logo Bay Từ Trái, Nhãn Bay Từ Phải, Quét Sáng & Phụ Đề Chuẩn) (2026-09-12)
+
+Thực hiện yêu cầu của khách hàng ("Logo single thì đi từ bên trái sang, còn label từ bên phải sang, cho thêm hiệu ứng đi chứ", "k nên để tổ hợp 25ha ở chỗ đó mà ghi là trung tâm logistics tại cửa khẩu quốc tế tà lùng"):
+
+1. **Hiệu Ứng Hội Tụ Điện Ảnh (Cinematic Convergence)**:
+   - **Logo Single (`logo-single-header.png`)**: Bay mượt mà từ bên trái vào tâm (`translateX(-140px)` -> `0`), kết hợp làm mờ và thu phóng `scale(0.82)` -> `1.0`.
+   - **Nhãn Thương Hiệu (`Lable-header.png`)**: Bay từ bên phải vào tâm (`translateX(140px)` -> `0`).
+   - Cả 2 phần tử gặp nhau tại tâm đồng thời với đường cong giảm tốc mượt mà `cubic-bezier(0.16, 1, 0.3, 1)`.
+2. **Hiệu Ứng Quét Sáng Ánh Kim & Vầng Hào Quang**:
+   - Khi 2 phần tử hội tụ tại tâm (~0.8s), một chùm tia sáng ánh kim (`lightSweep`) quét chéo qua toàn bộ khối logo từ trái sang phải.
+   - Vòng tròn sóng xung kích (`ringRipple`) lan tỏa rộng cùng vầng hào quang chuyển sắc mềm mại (`haloGlow`).
+   - Thanh tiến trình nạp (progress bar) 240px bo tròn với dải màu thương hiệu `#233871` -> `#0c9344` nạp đầy dần nhịp nhàng.
+3. **Chuẩn Hóa Phụ Đề Thương Hiệu**:
+   - Đổi phụ đề từ "Tổ hợp 25ha" thành: **`Trung tâm Logistics tại Cửa khẩu Quốc tế Tà Lùng`** với kiểu chữ dãn cách sang trọng `letter-spacing: 3px`.
+   - Đồng bộ alt text của nhãn thương hiệu trên Header thành `Trung tâm Logistics tại Cửa khẩu Quốc tế Tà Lùng`.
+4. **Kích Hoạt Trên Mọi Lần Tải Trang**:
+   - Gỡ bỏ giới hạn `sessionStorage`, preloader luôn hiển thị sống động mỗi khi người dùng tải lại trang (F5 / reload).
+5. **Kiểm Thử Trực Quan**:
+   - Đã kiểm tra qua headless browser và chụp ảnh giao diện thực tế (`preloader_screen_1789209681169.png`), hiệu ứng bay từ hai phía và quét sáng vô cùng cuốn hút.
