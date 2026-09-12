@@ -1184,5 +1184,19 @@ Khắc phục phản hồi của khách hàng ("Header giờ lại quá cơ bả
 3. **Kiểm Thử & Xác Nhận**:
    - Production build `npm run build` hoàn thành 100% không lỗi (26/26 routes, 0 warning).
    - Kiểm tra headless browser xác nhận tương tác mở Search Modal, gõ từ khóa và hiển thị kết quả thành công rực rỡ (`rich_header_top_1789206699726.png`, `search_modal_results_1789206803139.png`).
+## 25. Checkpoint 14 — Nâng Cấp Logo Header & Nhãn Thương Hiệu Chính Thức (`logo-single-header.png` & `Lable-header.png`) (2026-09-12)
 
+Thực hiện yêu cầu của khách hàng ("Chỗ TỔ HỢP 25HA CỬA KHẨU QUỐC TẾ TÀ LÙNG cho thành cái ảnh Lable-header.png và logo header thì dùng logo-single-header.png"):
 
+1. **Cập Nhật Tài Nguyên Đồ Họa Header**:
+   - Tích hợp biểu tượng logo đơn lẻ chính thức `/images/logo-single-header.png` (kích thước gốc 1892x1521, tỷ lệ ~1.24:1) vào vị trí biểu trưng thương hiệu trên Header.
+   - Thay thế văn bản `TỔ HỢP 25HA / CỬA KHẨU QUỐC TẾ TÀ LÙNG` bằng dải hình ảnh đồ họa thiết kế `/images/Lable-header.png` (kích thước gốc 2808x609, tỷ lệ ~4.6:1).
+2. **Căn Chỉnh Tỷ Lệ & Bố Cục Thẩm Mỹ (Desktop & Mobile Drawer)**:
+   - Tinh chỉnh `LogoWrapper` với khoảng cách `gap: 12px`, vạch hairline ngăn cách màu xám nhạt sang trọng `#E2E8F0`.
+   - `logo-single-header.png` hiển thị với chiều cao chuẩn `50px` (chiều rộng tỷ lệ tương ứng ~`62px`), tối ưu độ sắc nét trên màn hình Retina (High-DPI).
+   - `Lable-header.png` hiển thị với chiều cao chuẩn `38px` (chiều rộng tương ứng ~`185px`), căn giữa theo trục đứng, đồng bộ nhịp nhàng cùng biểu tượng logo và thanh menu điều hướng.
+   - Thêm hiệu ứng tương tác vi mô: `hover` phóng nhẹ logo (`scale(1.04)`) và nhãn (`scale(1.02)`).
+   - Đồng bộ hiển thị cặp logo và nhãn trong thanh tiêu đề `DrawerHeader` của Mobile Drawer trên thiết bị di động (chiều cao 30px).
+3. **Kiểm Thử Trực Quan (Browser Verification)**:
+   - Xác nhận trên môi trường thực tế tại `http://localhost:3000/`.
+   - Ảnh chụp giao diện thực tế ghi nhận tải thành công HTTP 200, hình ảnh sắc nét, không bị kéo dãn méo hình, căn lề hoàn hảo bên cạnh thanh tìm kiếm `⌘K` và menu điều hướng (`header_new_logo_label_1789208303772.png`).
