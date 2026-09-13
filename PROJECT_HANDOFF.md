@@ -2,14 +2,14 @@
 
 ## 0. Handoff Snapshot
 
-- Last updated: 2026-09-12 (Checkpoint 18 — Enterprise Design System Specification Extracted from Homepage)
-- Updated by: Antigravity (Design System Architecture)
+- Last updated: 2026-09-13 (Checkpoint 19 — Master Content Specification Extracted from Official Website & Database)
+- Updated by: Antigravity (Content Architecture)
 - Current phase: Phase 8 — Multi-Page Enterprise Alignment
-- Overall status: Live in Production & Sub-Pages Design System Extracted
-- Last completed checkpoint: Checkpoint 18 — Enterprise Design System Specification Extracted from Homepage
-- Next action: Implement and standardize sub-pages according to Design System
+- Overall status: Live in Production & Master Content Extracted to content.md
+- Last completed checkpoint: Checkpoint 19 — Master Content Specification Extracted from Official Website & Database
+- Next action: Apply Design System and Master Content to Sub-Pages
 - Current blocker: None
-- Production affected: Sub-pages UI/UX rollout ready
+- Production affected: Ready for Sub-pages Implementation
 
 ---
 
@@ -1283,3 +1283,23 @@ Thực hiện yêu cầu của khách hàng ("trích xuất trang chủ này đ�
    - **Preloader Hội Tụ**: Logo bay từ trái, Label bay từ phải, slogan "TRUNG TÂM LOGISTICS TẠI CỬA KHẨU QUỐC TẾ TÀ LÙNG".
 4. **Đồng Bộ Code & Tiện Ích**:
    - Cập nhật class tiện ích `.container` trong `frontend/src/styles/GlobalStyles.ts` lên chuẩn `max-width: 1440px;` đồng bộ tuyệt đối với toàn bộ các thành phần trên web.
+
+## 30. Checkpoint 19 — Trích Xuất & Biên Soạn Kho Nội Dung Doanh Nghiệp Chuẩn Hóa `content.md` (2026-09-13)
+
+Thực hiện yêu cầu của khách hàng ("Dữ liệu thì bạn hãy trích xuất trên trang web chính thức của chúng tôi từ các bài dịch vụ, tin tức, các page nhé, soạn luôn 1 content.md đi"):
+
+1. **Trích Xuất Đa Nguồn Thực Tế**:
+   - Quét dữ liệu từ website chính thức `https://talunglogistics.com` (Giới thiệu, Tuyên ngôn giá trị, 4 trang dịch vụ chi tiết).
+   - Truy vấn toàn bộ 30 bài tin tức, 6 nhóm dịch vụ, 5 chi nhánh, và 12 tin tuyển dụng từ PostgreSQL Neon DB qua backend API (`http://localhost:3005`).
+   - Tích hợp toàn bộ chiến lược phân bổ nội dung B2B từ tài liệu gốc `docs/references/Tổng hợp hoàn thiện website Tà Lùng-2.xlsx` (các sheet: Dịch vụ, Tuyển dụng, SEO tin tức, Web, Tổng hợp).
+2. **Biên Soạn Tài Liệu `docs/content.md` & `content.md`**:
+   - Gồm 8 phần chuyên sâu:
+     - **Phần 1: Hồ sơ pháp lý & Nhận diện**: Tiền thân Phú Anh 2008, giấy phép Đại lý hải quan, Slogan "TRUNG TÂM LOGISTICS TẠI CỬA KHẨU QUỐC TẾ TÀ LÙNG", Hotline `+84 865.865.600`, 5 chi nhánh.
+     - **Phần 2: Giới thiệu (About Us)**: Lịch sử, tầm nhìn, sứ mệnh, số liệu năng lực (25ha, 100+ cont/ngày, thông quan < 2h, 24/7), quy trình 5 bước.
+     - **Phần 3: 6 Dịch vụ cốt lõi**: Khách hàng mục tiêu, vấn đề thực tế, giải pháp công nghệ, bullet points, CTA và từ khóa SEO.
+     - **Phần 4: Năng lực hạ tầng 25ha**: Chi tiết 3 cụm bãi (Tà Lùng Quang Minh, Vũ Thành, Sơn Cảng), trạm cân 120 tấn, dàn xe nâng, cẩu lốp, giắc cắm container lạnh.
+     - **Phần 5: Kho 30 bài tin tức**: Trích xuất chi tiết theo 4 nhóm chuyên đề (Hải quan, Thị trường, Hạ tầng số, CSR).
+     - **Phần 6: Tuyển dụng & HR**: Chính sách hỗ trợ **nhà ở tập thể và cơm ca miễn phí** tại cửa khẩu, cấp phát Laptop, JD chi tiết 5 vị trí.
+     - **Phần 7: Liên hệ & Form báo giá B2B**: Các trường dữ liệu phục vụ đối tác doanh nghiệp.
+     - **Phần 8: Từ điển thuật ngữ đa ngữ**: Đối chiếu chuẩn xác 20 thuật ngữ then chốt giữa Tiếng Việt - Tiếng Trung - Tiếng Anh.
+3. **Đồng Bộ Git**: Đã commit và push đồng bộ lên cả 2 nhánh `develop` và `main`.
