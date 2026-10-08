@@ -1,15 +1,15 @@
 # HỆ THỐNG NỘI DUNG CHÍNH THỨC TOÀN DIỆN (OFFICIAL MASTER CONTENT SPECIFICATION)
 ## CÔNG TY CỔ PHẦN TÀ LÙNG QUANG MINH (TÀ LÙNG LOGISTICS)
-**Phiên bản:** 2.5 (Đại Bách Khoa Nội Dung Toàn Diện - Trích Xuất 100% Dữ Liệu Thực Từ Live Website, Neon DB & B2B Strategy)  
-**Nguyên tắc thực thi:** Tuyệt đối không bịa đặt, bảo toàn toàn bộ dữ liệu lịch sử, tổ chức nhân sự, thông số hạ tầng 4 cụm kho bãi 32ha, 30 bài viết nghiệp vụ chi tiết, 6 nhóm dịch vụ chuyên sâu và 13 vị trí tuyển dụng thực tế.
+**Phiên bản:** 3.0 (Đại Bách Khoa Nội Dung Chuẩn Hóa Thực Tế – Đối Chiếu 100% Live Website www.talunglogistics.com & Facebook @talunglogistics.11)  
+**Nguyên tắc thực thi:** Tuyệt đối không bịa đặt hay phóng đại số liệu; bảo toàn toàn bộ dữ liệu lịch sử từ năm 2008 (Phú Anh), cơ cấu Hội đồng quản trị & Ban điều hành thực tế, hạ tầng kho bãi đa điểm 30ha (tổ hợp lõi 25ha), năng lực tiếp nhận 400+ xe/ngày (~6.880 tấn/ngày), 70+ xe container lạnh/ngày, 100+ container thông quan/ngày, 30 bài viết nghiệp vụ và 13 vị trí tuyển dụng thực tế.
 
 ---
 
 ## MỤC LỤC TỔNG QUAN
 1. [Hồ Sơ Doanh Nghiệp, Mạng Lưới Chi Nhánh & Đối Tác Chiến Lược](#1-hồ-sơ-doanh-nghiệp-mạng-lưới-chi-nhánh--đối-tác-chiến-lược)
-2. [Nội Dung Trang Giới Thiệu (About Us) & Tuyên Ngôn Giá Trị (Manifesto)](#2-nội-dung-trang-giới-thiệu-about-us--tuyên-ngôn-giá-trị-manifesto)
+2. [Nội Dung Trang Giới Thiệu (About Us), Ban Lãnh Đạo & Tuyên Ngôn Giá Trị](#2-nội-dung-trang-giới-thiệu-about-us-ban-lãnh-đạo--tuyên-ngôn-giá-trị)
 3. [Đặc Tả 6 Nhóm Dịch Vụ Cốt Lõi & Cấu Trúc Biểu Phí Minh Bạch](#3-đặc-tả-6-nhóm-dịch-vụ-cốt-lõi--cấu-trúc-biểu-phí-minh-bạch)
-4. [Hồ Sơ Hạ Tầng 4 Cụm Kho Bãi & Danh Mục Trang Thiết Bị Cơ Giới (32 Héc-Ta)](#4-hồ-sơ-hạ-tầng-4-cụm-kho-bãi--danh-mục-trang-thiết-bị-cơ-giới-32-héc-ta)
+4. [Hồ Sơ Hạ Tầng Kho Bãi Đa Điểm 30 Héc-Ta (Bãi Lõi 25ha) & Thiết Bị Cơ Giới](#4-hồ-sơ-hạ-tầng-kho-bãi-đa-điểm-30-héc-ta-bãi-lõi-25ha--thiết-bị-cơ-giới)
 5. [Toàn Bộ 30 Bài Tin Tức & Nghiệp Vụ Biên Mậu Thực Tế (Database Archive)](#5-toàn-bộ-30-bài-tin-tức--nghiệp-vụ-biên-mậu-thực-tế-database-archive)
 6. [Kế Hoạch 10 Bài Viết SEO Theo Chiến Lược Hoàn Thiện Web B2B (Excel Plan)](#6-kế-hoạch-10-bài-viết-seo-theo-chiến-lược-hoàn-thiện-web-b2b-excel-plan)
 7. [Nội Dung Tuyển Dụng & Bản Mô Tả Công Việc (JD) 13 Vị Trí Thực Tế](#7-nội-dung-tuyển-dụng--bản-mô-tả-công-việc-jd-13-vị-trí-thực-tế)
@@ -26,24 +26,27 @@
 - **Tên thương hiệu đối ngoại:** Tà Lùng Quang Minh Logistics / Tà Lùng Logistics
 - **Tên quốc tế (English):** Ta Lung Quang Minh Logistics Joint Stock Company
 - **Tên tiếng Trung:** 驮隆光明物流股份公司 (Tuó Lóng Guāng Míng Wù Liú Gǔ Fèn Gōng Sī)
-- **Tiền thân doanh nghiệp:** Công ty TNHH Thương mại Vận tải Phú Anh (Thành lập năm 2008)
+- **Mã số thuế (MST):** `4800155257`
+- **Người đại diện theo pháp luật:** TS. Lương Khắc Định – Thành viên HĐQT, Tổng Giám Đốc
+- **Tiền thân doanh nghiệp:** Công ty TNHH Thương mại Vận tải Phú Anh (Thành lập năm 2008 tại Cao Bằng)
 - **Tư cách pháp lý nghiệp vụ:** Đại lý Hải quan chính thức được Tổng cục Hải quan Việt Nam công nhận và cấp phép hoạt động trên toàn quốc.
 - **Slogan thương hiệu chuẩn hóa:**
   > **"KẾT NỐI BIÊN GIỚI – VƯƠN TỚI TOÀN CẦU"**  
   *(Định vị bến bãi: "Trung tâm Logistics tại Cửa khẩu Quốc tế Tà Lùng")*
-- **Tổng đài dịch vụ & Hotline trực chiến 24/7:** `+84 865.865.600`
+- **Tổng đài dịch vụ & Hotline trực chiến 24/7:** `+84 865.865.600` / `0963.320.355`
 - **Hotline Phòng Nhân sự & Tuyển dụng:** `0965.262.550`
 - **Email nghiệp vụ & Tiếp nhận báo giá:** `info@talunglogistics.com`
 - **Email tuyển dụng & Tiếp nhận hồ sơ:** `hr.group@talunglogistics.com` / `hr@talunglogistics.com`
-- **Cổng thông tin điện tử:** `https://talunglogistics.com`
+- **Cổng thông tin điện tử:** `https://www.talunglogistics.com`
+- **Kênh Fanpage Facebook chính thức:** `https://www.facebook.com/talunglogistics.11`
 
 ### 1.2. Mạng lưới 5 Văn phòng & Chi nhánh điều hành thực tế (Dữ liệu Neon DB)
 
 #### Chi nhánh 1: Trụ Sở & Bến Bãi 25ha (Cửa khẩu Tà Lùng) (Trụ sở chính & Tổ hợp Kho bãi)
-- **Địa chỉ:** Cửa khẩu Quốc tế Tà Lùng, Huyện Phục Hòa, Tỉnh Cao Bằng
+- **Địa chỉ:** Cửa khẩu Quốc tế Tà Lùng, Huyện Phục Hòa (nay là xã Phục Hòa), Tỉnh Cao Bằng
 - **Điện thoại:** +84 865.865.600
 - **Giờ làm việc:** 24/7 (Cả Lễ, Tết)
-- **Vai trò nghiệp vụ:** Tổ hợp bến bãi container 25ha, kho ngoại quan & chuỗi kho lạnh -18°C tại Cửa khẩu Tà Lùng
+- **Vai trò nghiệp vụ:** Tổ hợp bến bãi container 25ha (hệ thống đa điểm mở rộng 30ha), trạm cân điện tử 120T, kho ngoại quan & chuỗi cắm điện kho lạnh 380V tại Cửa khẩu Tà Lùng
 - **Tọa độ định vị:** Lat: `22.477`, Lng: `106.6853`
 - **Bản đồ Google Maps:** [Trụ Sở & Bến Bãi 25ha (Cửa khẩu Tà Lùng)](https://maps.google.com/?q=Cua+Khau+Quoc+Te+Ta+Lung+Cao+Bang)
 
@@ -64,12 +67,12 @@
 - **Bản đồ Google Maps:** [Chi Nhánh Cảng Hải Phòng](https://maps.google.com/?q=KCN+Dinh+Vu+Hai+Phong)
 
 #### Chi nhánh 4: Chi Nhánh Quảng Ninh (Văn phòng Hạ Long) (Văn phòng kết nối hành lang ven biển)
-- **Địa chỉ:** Số 88 Đường Lê Lợi, Phường Yết Kiêu, TP. Hạ Long, Tỉnh Quảng Ninh
+- **Địa chỉ:** Số 29 Đường Lê Duẩn, Phường Bãi Cháy, TP. Hạ Long, Tỉnh Quảng Ninh
 - **Điện thoại:** +84 865.865.600
 - **Giờ làm việc:** 08:00 - 17:30
 - **Vai trò nghiệp vụ:** Kết nối vận tải liên vùng ven biển Đông Bắc, chuyển tiếp hàng hóa đi Móng Cái và Cao Bằng
 - **Tọa độ định vị:** Lat: `20.952`, Lng: `107.0734`
-- **Bản đồ Google Maps:** [Chi Nhánh Quảng Ninh (Văn phòng Hạ Long)](https://maps.google.com/?q=Ha+Long+Quang+Ninh)
+- **Bản đồ Google Maps:** [Chi Nhánh Quảng Ninh (Văn phòng Hạ Long)](https://maps.google.com/?q=29+Le+Duan+Bai+Chay+Ha+Long)
 
 #### Chi nhánh 5: Văn Phòng Đại Diện Quảng Tây (Trung Quốc) (Cửa khẩu Thủy Khẩu - Bằng Tường - Nam Ninh)
 - **Địa chỉ:** Cửa khẩu Thủy Khẩu (Shuikou), Long Châu, Sùng Tả, Khu tự trị Choang Quảng Tây, Trung Quốc
@@ -79,47 +82,39 @@
 - **Tọa độ định vị:** Lat: `22.4776`, Lng: `106.6914`
 - **Bản đồ Google Maps:** [Văn Phòng Đại Diện Quảng Tây (Trung Quốc)](https://maps.google.com/?q=Shuikou+Port+Guangxi)
 
-### 1.3. Hệ thống 9 Đối tác & Tổ chức Hiệp hội chiến lược (Dữ liệu Neon DB)
-
+### 1.3. Hệ thống Đối tác & Tổ chức Hiệp hội chiến lược
 - **BHTSCM**: Đối tác hợp tác chiến lược lĩnh vực logistics & hạ tầng công nghiệp (Website: `https://bhtscm.com`).
-
-- **MN SHIPPING**: Đối tác hợp tác chiến lược lĩnh vực logistics & hạ tầng công nghiệp (Website: `https://mnshipping.com`).
-
-- **VLA (Hiệp Hội Logistics VN)**: Đối tác hợp tác chiến lược lĩnh vực logistics & hạ tầng công nghiệp (Website: `https://vla.com.vn`).
-
-- **VINAFCO**: Đối tác hợp tác chiến lược lĩnh vực logistics & hạ tầng công nghiệp (Website: `https://vinafco.com.vn`).
-
-- **FM LOGISTICS**: Đối tác hợp tác chiến lược lĩnh vực logistics & hạ tầng công nghiệp (Website: `https://fmlogistics.com`).
-
-- **HPL LOGISTICS**: Đối tác hợp tác chiến lược lĩnh vực logistics & hạ tầng công nghiệp (Website: `https://hpllogistics.com`).
-
-- **HANKYU HANSHIN**: Đối tác hợp tác chiến lược lĩnh vực logistics & hạ tầng công nghiệp (Website: `https://hankyuhanshin.com`).
-
-- **CAPITALAND**: Đối tác hợp tác chiến lược lĩnh vực logistics & hạ tầng công nghiệp (Website: `https://capitaland.com`).
-
-- **MISA CORP**: Đối tác hợp tác chiến lược lĩnh vực logistics & hạ tầng công nghiệp (Website: `https://misa.vn`).
+- **MN SHIPPING**: Đối tác hợp tác chiến lược lĩnh vực vận tải container hàng hải (Website: `https://mnshipping.com`).
+- **VLA (Hiệp Hội Logistics VN)**: Hội viên chính thức Hiệp hội Doanh nghiệp Dịch vụ Logistics Việt Nam (Website: `https://vla.com.vn`).
+- **VINAFCO**: Đối tác logistics và vận tải đường bộ liên vùng (Website: `https://vinafco.com.vn`).
+- **FM LOGISTIC**: Đối tác chuỗi cung ứng và kho bãi tiêu chuẩn quốc tế (Website: `https://fmlogistic.com`).
+- **HPL LOGISTICS**: Đối tác giao nhận vận tải hàng không và đường biển (Website: `https://hpllogistics.com`).
+- **HANKYU HANSHIN**: Hợp tác mạng lưới logistics quốc tế Nhật Bản - Việt Nam (Website: `https://hankyuhanshin.com`).
+- **CAPITALAND**: Hợp tác hạ tầng khu công nghiệp và kho vận (Website: `https://capitaland.com`).
+- **MISA CORP**: Đối tác chiến lược công nghệ và chuyển đổi số toàn diện (Website: `https://misa.vn`).
+- **Hiệp hội Doanh nghiệp Quảng Tây – Trùng Khánh**: Đối tác thương mại và xúc tiến chuỗi cung ứng xuyên biên giới (Nam Ninh, Trung Quốc).
 
 ---
 
-## 2. NỘI DUNG TRANG GIỚI THIỆU (ABOUT US) & TUYÊN NGÔN GIÁ TRỊ (MANIFESTO)
+## 2. NỘI DUNG TRANG GIỚI THIỆU (ABOUT US), BAN LÃNH ĐẠO & TUYÊN NGÔN GIÁ TRỊ
 
 ### 2.1. Tổng quan & Lịch sử hình thành
 Được thành lập từ năm 2008 với tiền thân là **Công ty TNHH Thương mại Vận tải Phú Anh**, Công ty Cổ phần Tà Lùng Quang Minh đã nhanh chóng vươn mình trở thành đơn vị tiên phong hàng đầu trong ngành logistics vùng biên giới phía Bắc. Nắm bắt dòng chảy thương mại Việt - Trung qua Cửa khẩu Quốc tế Tà Lùng, doanh nghiệp đã đầu tư bài bản và đồng bộ vào hệ thống kho bãi, địa điểm tập kết, kiểm tra và chuyển tải hàng hóa đạt chuẩn quốc tế.
 
 Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
-1. **Kho bãi & Bãi tập kết:** Chuỗi 4 cụm kho bãi quy mô 32 ha (trong đó bến bãi lõi là 25 ha).
-2. **Bến xe logistics & Điều phối phương tiện:** Quản lý luồng xe tải trọng lớn và xe container xuất nhập khẩu 24/7.
-3. **Đại lý hải quan số hóa:** Khai báo hải quan điện tử qua hệ thống VNACCS/VCIS, thông quan dưới 2 giờ.
-4. **Vận tải hàng hóa quốc tế:** Liên vận xuyên biên giới Việt Nam – Trung Quốc kết nối các cảng biển và trung tâm công nghiệp.
-5. **Sang tải cơ giới:** Ứng dụng thiết bị nâng container chuyên dụng 35 tấn và 7.5 tấn.
-6. **Chuỗi cung ứng & Kiểm dịch, C/O:** Cấp C/O Form E thuế 0%, kiểm dịch thực vật/động vật và bảo hiểm quốc tế.
+1. **Kho bãi & Bãi tập kết:** Tổ hợp 3 cụm bãi trọng điểm quy mô 25 ha (hệ thống logistics đa điểm mở rộng 30 ha).
+2. **Bến xe logistics & Điều phối phương tiện:** Quản lý luồng hơn 400 xe/ngày và hơn 100 container thông quan/ngày 24/7.
+3. **Đại lý hải quan số hóa:** Khai báo hải quan điện tử qua hệ thống VNACCS/VCIS, hoàn tất thông quan dưới 2 giờ.
+4. **Vận tải hàng hóa quốc tế:** Liên vận xuyên biên giới Việt Nam – Trung Quốc kết nối các cảng biển và trung tâm công nghiệp lớn.
+5. **Sang tải cơ giới:** Ứng dụng cẩu nâng container chuyên dụng 35 tấn và xe nâng cơ giới hiện đại.
+6. **Chuỗi cung ứng & Kiểm dịch, C/O:** Cấp C/O Form E thuế 0%, kiểm dịch thực vật/động vật và duy trì chuỗi bảo quản lạnh 70+ xe container/ngày.
 
 ### 2.2. Dấu ấn phát triển qua các thời kỳ
 - **Năm 2008 – Khởi đầu tiên phong:**  
   Thành lập Công ty TNHH Thương mại Vận tải Phú Anh tại Cao Bằng, đặt những viên gạch đầu tiên cho dịch vụ vận tải hàng hóa và mở tờ khai hải quan tại Cửa khẩu Tà Lùng.
-- **Giai đoạn Đổi Mới – Tà Lùng Quang Minh 25ha:**  
-  Chuyển đổi thành Công ty Cổ phần Tà Lùng Quang Minh, mở rộng đầu tư hạ tầng bến bãi lên đến 25 ha (và mở rộng quy hoạch toàn khu đạt 32 ha), xây dựng trạm cân điện tử tự động 120 tấn và hệ thống kho ngoại quan hiện đại.
-- **Tương Lai – Tích hợp Hành lang Cửa khẩu Tà Lùng – Chi Ma:**  
+- **Giai đoạn Đổi Mới – Tà Lùng Quang Minh 25ha (Mở rộng Đa điểm 30ha):**  
+  Chuyển đổi thành Công ty Cổ phần Tà Lùng Quang Minh, mở rộng đầu tư hạ tầng bến bãi lên đến 25 ha trọng điểm, thiết lập mạng lưới đa điểm 30 ha, xây dựng trạm cân điện tử tự động 120 tấn và cẩu gắp container 35 tấn.
+- **Tương Lai – Tích hợp Hành lang Cửa khẩu Tà Lùng – Chi Ma & Cao tốc Đồng Đăng - Trà Lĩnh:**  
   Tích hợp hoàn thiện hệ thống cửa khẩu Tà Lùng - Chi Ma, đón đầu tuyến cao tốc Đồng Đăng - Trà Lĩnh, kiến tạo chuỗi dịch vụ logistics dọc toàn tuyến biên giới Đông Bắc kết nối thẳng tới thị trường Tây Nam Trung Quốc (Trùng Khánh, Nam Ninh, Tứ Xuyên).
 
 ### 2.3. Sứ Mệnh & Tầm Nhìn
@@ -137,15 +132,41 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
 4. **Trách Nhiệm Cộng Đồng:**  
    Vận hành doanh nghiệp không tách rời ý thức bảo vệ môi trường (logistics xanh) và đóng góp vào sự hưng thịnh của kinh tế vùng biên giới Cao Bằng, đồng hành bền vững cùng lực lượng Bộ đội Biên phòng và chính quyền địa phương.
 
-### 2.5. Bảng chỉ số năng lực đo lường thực tế (Verified Metrics)
-- **32 Héc-ta (320.000 m²):** Tổng quy mô diện tích 4 cụm kho bãi trong hệ sinh thái logistics (tổ hợp trung tâm lõi là 25 ha).
-- **Hơn 1.500 Xe / Ngày:** Năng lực tiếp nhận, phân luồng và xử lý phương tiện vận tải ra vào cửa khẩu mỗi ngày.
-- **Hơn 300 Container Lạnh / Ngày:** Khả năng tiếp nhận và duy trì cắm điện bảo quản liên tục cho container nông sản và thủy hải sản đông lạnh.
+### 2.5. Ban Lãnh Đạo, Hội Đồng Quản Trị & Cơ Cấu Tổ Chức Thực Tế
+
+#### Hội đồng Quản trị & Ban Tổng Giám đốc:
+1. **Ông Trần Văn Thắng – Chủ tịch Hội đồng Quản trị**  
+   - Chủ trì các phiên họp HĐQT Công ty Cổ phần Tà Lùng Quang Minh; định hướng chiến lược đầu tư và phát triển dài hạn.
+2. **TS. Lương Khắc Định – Thành viên HĐQT - Kiêm Tổng Giám Đốc**  
+   - Tiến sĩ, Người đại diện theo pháp luật của công ty; trực tiếp điều hành toàn bộ hoạt động sản xuất kinh doanh, đối ngoại và phát triển hạ tầng bến bãi logistics.
+3. **Bà Trần Thị Thuỷ – Thành viên HĐQT - Kiêm Phó Tổng Giám Đốc**  
+   - Thành viên HĐQT kiêm Phó Tổng Giám đốc; phụ trách kế hoạch tài chính, quản trị nội bộ và xúc tiến hợp tác quốc tế.
+4. **Ông Vũ Mạnh Sơn – Thành viên Hội đồng Quản trị**  
+   - Thành viên Hội đồng Quản trị đóng góp hoạch định chiến lược đầu tư hạ tầng và mở rộng mạng lưới liên kết đối tác.
+5. **Ông Mai Đức Trung – Thành viên Hội đồng Quản trị**  
+   - Thành viên Hội đồng Quản trị đóng góp định hướng phát triển chuỗi cung ứng biên mậu, mở rộng hợp tác xuất nhập khẩu.
+
+#### Cơ cấu 4 phòng ban chuyên môn vận hành thực tế:
+1. **Phòng Vận Hành (Operations):**  
+   - Quản lý bãi tập kết 25ha, trạm cân điện tử 120 tấn, phân luồng phương tiện, bốc xếp sang tải cơ giới và điều phối container lạnh 24/7.
+2. **Phòng Kinh Doanh & Dịch Vụ Khách Hàng (Commercial & CSKH):**  
+   - Phụ trách quan hệ đối tác B2B, xúc tiến thương mại XNK Việt — Trung, báo giá dịch vụ và chăm sóc khách hàng 24/7.
+3. **Bộ Phận Thủ Tục Hải Quan & XNK (Customs Clearance):**  
+   - Rà soát chứng từ xuất nhập khẩu, mã HS code, truyền tờ khai điện tử VNACCS, kiểm dịch và hoàn tất thủ tục thông quan dưới 2 giờ.
+4. **Bộ Phận Kế Toán - Tài Chính & Hành Chính (Finance & Administration):**  
+   - Quản trị tài chính bến bãi, xuất hóa đơn điện tử, đối soát công nợ, quản lý nhân sự và đảm bảo tuân thủ pháp lý doanh nghiệp.
+
+### 2.6. Bảng chỉ số năng lực đo lường thực tế (Verified Metrics)
+- **25 Héc-ta (250.000 m²):** Quy mô diện tích 3 cụm bãi trọng điểm trung tâm (hệ thống logistics đa điểm mở rộng 30 ha).
+- **100+ Container / Ngày:** Năng lực thông quan hoàn tất thủ tục và giải phóng qua cửa khẩu mỗi ngày.
+- **Hơn 400 Xe / Ngày:** Lượng phương tiện điều phối toàn hệ thống mỗi ngày (khoảng 470 xe các loại/ngày).
+- **70+ Xe Container Lạnh / Ngày:** Tiếp nhận và duy trì cắm điện bảo quản liên tục cho container nông sản và thủy hải sản đông lạnh.
+- **~6.880 Tấn / Ngày:** Sản lượng hàng hóa xuất nhập khẩu luân chuyển và bốc dỡ qua hệ thống mỗi ngày.
 - **Dưới 2 Giờ:** Thời gian thông quan trung bình đối với các lô hàng chuẩn bị đầy đủ hồ sơ pháp lý.
 - **24/7/365:** Đội ngũ chuyên trách túc trực tại hiện trường cửa khẩu không ngừng nghỉ, kể cả các dịp lễ Tết cổ truyền.
 - **15+ Năm:** Bề dày kinh nghiệm thực chiến xử lý các thủ tục hải quan và giải phóng hàng hóa biên giới từ năm 2008.
 
-### 2.6. Quy trình vận hành khép kín 5 bước
+### 2.7. Quy trình vận hành khép kín 5 bước
 1. **Bước 1 – Tiếp Nhận & Đánh Giá:** Tiếp nhận kế hoạch, kiểm tra bộ chứng từ (Invoice, Packing List, C/O) và tư vấn phương án tối ưu thuế/mã HS.
 2. **Bước 2 – Khai Báo Hải Quan:** Xử lý thủ tục pháp lý, truyền tờ khai điện tử VNACCS/VCIS và thông quan siêu tốc dưới 2 giờ.
 3. **Bước 3 – Điều Phối Phương Tiện:** Cấp thẻ xe thông minh, cân điện tử 120 tấn và phân luồng xe vào khu vực chuyển tải chuyên dụng.
@@ -178,11 +199,11 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
 
 ---
 
-### Dịch Vụ 2: Dịch Vụ Kho Bãi & Bãi Tập Kết Hàng Hóa 32 Héc-Ta
+### Dịch Vụ 2: Dịch Vụ Kho Bãi & Bãi Tập Kết Hàng Hóa 25 Héc-Ta (Hệ Thống Đa Điểm 30ha)
 - **Mã hệ thống:** `kho-bai-ta-lung` | **Icon:** `warehouse` (Kho bãi) | **Category ID:** 4
-- **Định danh trên hệ thống:** Hệ Thống Kho Bãi & Bến Bãi Tập Kết 32ha Tại Cửa Khẩu Quốc Tế Tà Lùng (Bãi Lõi 25ha)
+- **Định danh trên hệ thống:** Hệ Thống Kho Bãi & Bến Bãi Tập Kết 25ha Tại Cửa Khẩu Quốc Tế Tà Lùng (Hệ Thống Đa Điểm Mở Rộng 30ha)
 - **Tổng quan nghiệp vụ:**  
-  Vận hành hệ thống kho bãi quy mô 32 héc-ta nằm ngay sát vạch phân định Cửa khẩu Quốc tế Tà Lùng, cung cấp giải pháp lưu trữ, trung chuyển và hỗ trợ thông quan toàn diện cho hoạt động xuất nhập khẩu Việt Nam – Trung Quốc. Hạ tầng tiếp nhận hơn 1.500 xe/ngày và cắm hơn 300 container lạnh/ngày.
+  Vận hành hệ thống kho bãi quy mô 25 héc-ta trọng điểm (mở rộng đa điểm 30 ha) nằm ngay sát vạch phân định Cửa khẩu Quốc tế Tà Lùng, cung cấp giải pháp lưu trữ, trung chuyển và hỗ trợ thông quan toàn diện cho hoạt động xuất nhập khẩu Việt Nam – Trung Quốc. Hạ tầng tiếp nhận hơn 400 xe/ngày, xử lý 100+ container thông quan/ngày và cắm 70+ container lạnh/ngày.
 - **9 Dịch vụ triển khai đồng bộ tại hệ thống kho bãi:**
   1. Sang tải hàng hóa xuất nhập khẩu.
   2. Cắm container lạnh (hệ thống điện 3 pha 380V công suất lớn).
@@ -190,7 +211,7 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
   4. Xếp dỡ bằng xe nâng cơ giới đa tải trọng (3.5T – 10T).
   5. Gắp đảo vỏ container và container hàng bằng cẩu chuyên dụng 35 tấn.
   6. Trạm cân điện tử tự động 120 tấn bàn cân 18m.
-  7. Kho ngoại quan bảo thuế Song Toàn (>99.000 m²).
+  7. Kho ngoại quan bảo thuế Song Toàn (12.000+ m²).
   8. Kho lưu trữ hàng hóa tổng hợp và bãi depot container rỗng.
   9. Vệ sinh, sơ chế nông sản và hoa quả xuất khẩu.
 - **CTA:** `Tư Vấn Phương Án Lưu Kho / Lưu Bãi` | `Đặt Lịch Khảo Sát Bãi`
@@ -246,7 +267,7 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
     - Khu vệ sinh và hệ thống phòng tắm nước nóng miễn phí cho tài xế đường dài.
     - Canteen phục vụ ăn uống đảm bảo vệ sinh an toàn thực phẩm hoạt động 24/24.
     - Trạm cấp dầu diesel, điểm kiểm tra kỹ thuật, bơm vá lốp lưu động và bảo dưỡng nhanh phương tiện.
-  - *Đội ngũ điều hành hiện trường 24/7:* Phối hợp chặt chẽ cùng Ban Quản lý Khu kinh tế, Bộ đội Biên phòng và Cảnh sát giao thông điều tiết phân luồng, triệt tiêu hoàn toàn hiện tượng tắc nghẽn giao thông trên quốc lộ 4A dẫn vào cửa khẩu.
+  - *Đội ngũ điều hành hiện trường 24/7:* Phối hợp chặt chẽ cùng Ban Quản lý Khu kinh tế, Bộ đội Biên phòng và Cảnh sát giao thông điều tiết phân luồng, triệt tiêu hoàn toàn hiện tượng tắc nghẽn giao thông trên quốc lộ dẫn vào cửa khẩu.
 - **CTA:** `Liên Hệ Điều Phối Bãi Xe` | `Hotline Bến Xe: +84 865.865.600`
 - **Từ khóa SEO:** `bến xe logistics Tà Lùng`, `điều phối xe cửa khẩu Tà Lùng`, `trạm dừng nghỉ container Cao Bằng`.
 
@@ -265,50 +286,56 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
 
 ---
 
-## 4. HỒ SƠ HẠ TẦNG 4 CỤM KHO BÃI & DANH MỤC TRANG THIẾT BỊ CƠ GIỚI (32 HÉC-TA)
+## 4. HỒ SƠ HẠ TẦNG KHO BÃI ĐA ĐIỂM 30 HÉC-TA (BÃI LÕI 25HA) & THIẾT BỊ CƠ GIỚI
 
-Hệ thống kho bãi của Công ty Cổ phần Tà Lùng Quang Minh được quy hoạch khoa học thành 4 cụm chiến lược với tổng diện tích 320.000 m² (32 ha), trong đó tổ hợp bến bãi trung tâm lõi là 25 ha:
+Hệ thống kho bãi của Công ty Cổ phần Tà Lùng Quang Minh được quy hoạch khoa học theo mô hình vận hành đa điểm với tổng quy mô 30 hecta (300.000 m²), trong đó tổ hợp bến bãi lõi trọng điểm là 25 ha:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│             TỔNG DIỆN TÍCH QUY HOẠCH HẠ TẦNG: 32 HÉC-TA (320.000 m²)        │
+│             HỆ THỐNG LOGISTICS ĐA ĐIỂM TÀ LÙNG QUANG MINH: 30 HÉC-TA        │
 ├──────────────────────┬──────────────────────┬───────────────────────────────┤
-│ 1. Cụm Bãi Phú Anh   │ 2. Kho Ngoại Quan    │ 3. Kho Sơn Cảng: 45.000 m²    │
-│    (1, 2, 3):        │    Song Toàn:        │    - 100 xe/ngày, 100 cont    │
-│    > 150.000 m²      │    > 99.000 m²       │      lạnh/ngày                │
-│    - 1.200 xe/ngày   │    - Kho bảo thuế    ├───────────────────────────────┤
-│    - 200 cont lạnh   │    - Trung chuyển QT │ 4. Kho Vũ Thành: 34.000 m²    │
-│    - Bãi đỗ xe &     │    - Lưu kho dài hạn │    - 200 xe/ngày, chuyên gom  │
-│      sang tải chính  │      chờ thông quan  │      & đóng gói nông sản      │
-└──────────────────────┴──────────────────────┴───────────────────────────────┘
+│ 1. Cụm Phú Anh       │ 2. Kho Sơn Cảng      │ 3. Kho Vũ Thành: 14.000 m²    │
+│    (1, 2, 3):        │    30.000 m²         │    - ~50 xe/ngày              │
+│    80.000 m²         │    - ~100 xe/ngày    │    - Điều phối & giảm tải     │
+│    - ~260 xe/ngày    │    - 50-70 cont lạnh ├───────────────────────────────┤
+│    - Bộ não vận hành │    - Chuỗi lạnh 380V │ 4. Kho Song Toàn: 12.000+ m²  │
+│    - Sang tải cơ giới│                      │    - Kho ngoại quan bảo thuế  │
+├──────────────────────┴──────────────────────┼───────────────────────────────┤
+│ 5. Kho CPN: ~8.000 m² (Trung chuyển nhanh,  │ Trọng điểm 3 bãi lõi: 25 ha   │
+│ phân loại & last-mile logistics)            │ Hệ thống đa điểm mở rộng: 30ha│
+└─────────────────────────────────────────────┴───────────────────────────────┘
 ```
 
-### 4.1. Thông số chi tiết 4 cụm kho bãi chiến lược
-1. **Cụm Kho Bãi Phú Anh (1, 2, 3) – Trung tâm Trung chuyển Chủ lực:**
-   - *Diện tích:* Hơn **150.000 m²** (15 ha).
-   - *Năng lực vận hành:* Xử lý khoảng 1.200 xe/ngày; cắm container lạnh 200 xe/ngày; xếp dỡ thủ công 140 xe/ngày; xếp dỡ xe nâng 140 xe/ngày.
-   - *Thế mạnh nổi bật:* Quy mô lớn nhất tại cửa khẩu; khả năng tiếp nhận lượng xe container cực cao; phù hợp trung chuyển mọi loại hàng hóa và hàng xuất khẩu số lượng lớn; tối ưu lưu thông phương tiện mùa cao điểm; hệ thống vận hành liên tục 24/7.
-2. **Kho Sơn Cảng – Kho Vận hành Linh hoạt cho Hàng Xử lý Nhanh:**
-   - *Diện tích:* Khoảng **45.000 m²** (4,5 ha).
-   - *Năng lực vận hành:* Xử lý khoảng 100 xe/ngày; cắm container lạnh 100 xe/ngày; xếp dỡ thủ công 60 xe/ngày; xếp dỡ xe nâng 60 xe/ngày.
-   - *Thế mạnh nổi bật:* Chuyên biệt cho hàng hóa cần tốc độ quay vòng nhanh, hàng nông sản tươi sống và thủy hải sản đông lạnh; tăng cường khả năng phân luồng xe và giảm áp lực cho cụm bãi trung tâm; linh hoạt trong sang tải và lưu trữ ngắn hạn.
-3. **Kho Vũ Thành – Trung tâm Tập kết & Đóng gói Nông sản Xuất khẩu:**
-   - *Diện tích:* Khoảng **34.000 m²** (3,4 ha).
-   - *Năng lực vận hành:* Tiếp nhận và điều phối khoảng 200 xe/ngày.
-   - *Chức năng chính:* Gom hàng nông sản từ các tỉnh Nam Bộ và Tây Nguyên; phân loại phẩm cấp hàng hóa; đóng gói và dán tem truy xuất nguồn gốc đạt chuẩn xuất khẩu sang thị trường Trung Quốc; bảo quản và sơ chế, vệ sinh nông sản, hoa quả trước khi thông quan.
-4. **Kho Song Toàn – Kho Ngoại Quan Hỗ trợ Tối ưu Thủ tục Hải quan:**
-   - *Diện tích:* Hơn **99.000 m²** (gần 10 ha).
-   - *Chức năng chính:* Lưu trữ hàng hóa xuất nhập khẩu chưa hoàn thành nghĩa vụ nộp thuế; bảo quản hàng hóa chờ thông quan; phân loại, đóng gói và chia tách lô hàng trung chuyển quốc tế.
-   - *Thế mạnh nổi bật:* Tối ưu chi phí thuế và thủ tục hải quan; giúp doanh nghiệp chủ động kế hoạch xuất nhập khẩu theo biến động giá cả thị trường; đáp ứng nhu cầu lưu kho dài hạn và trung chuyển hàng hóa xuyên biên giới.
+### 4.1. Thông số chi tiết 5 phân khu kho bãi đa điểm
+1. **Cụm Kho Bãi Phú Anh (1, 2, 3) – Trung tâm Vận hành Chính:**
+   - *Diện tích:* **80.000 m²** (8 ha).
+   - *Năng lực vận hành:* Xử lý khoảng 260 xe/ngày; xếp dỡ cơ giới, hàng lạnh và điều phối trung tâm.
+   - *Thế mạnh nổi bật:* Là "bộ não vận hành" của toàn hệ thống; tiếp nhận lượng xe container lớn; trung tâm sang tải cơ giới cẩu 35 tấn và xe nâng.
+2. **Kho Sơn Cảng – Trung tâm Container Lạnh Chuyên Dụng:**
+   - *Diện tích:* **30.000 m²** (3 ha).
+   - *Năng lực vận hành:* Xử lý khoảng 100 xe/ngày; tiếp nhận và cắm điện liên tục cho **50 – 70 xe container lạnh / ngày**.
+   - *Thế mạnh nổi bật:* Đóng vai trò chiến lược trong xuất khẩu nông sản tươi sống (thanh long, chuối, xoài, mít, sầu riêng) và thủy sản đông lạnh; trang bị trạm điện 3 pha 380V công suất lớn.
+3. **Kho Vũ Thành – Trạm Điều Phối & Phân Luồng Giảm Tải:**
+   - *Diện tích:* **14.000 m²** (1,4 ha).
+   - *Năng lực vận hành:* Tiếp nhận và điều phối khoảng 50 xe/ngày.
+   - *Chức năng chính:* Giúp giảm ùn tắc, phân tán lưu lượng phương tiện và duy trì dòng chảy giao thông thông suốt tại cửa khẩu.
+4. **Kho Song Toàn – Kho Ngoại Quan Bảo Thuế:**
+   - *Diện tích:* Hơn **12.000 m²** (1,2+ ha).
+   - *Chức năng chính:* Lưu trữ hàng hóa xuất nhập khẩu, hỗ trợ tối ưu chi phí thuế và rút ngắn thời gian làm thủ tục hải quan.
+5. **Kho CPN – Trung Tâm Trung Chuyển Nhanh:**
+   - *Diện tích:* Khoảng **8.000 m²**.
+   - *Chức năng chính:* Phân loại nhanh hàng hóa, bưu kiện, hàng thương mại điện tử và phục vụ logistics chặng cuối (last-mile).
 
 ### 4.2. Bảng kê trang thiết bị cơ giới chuyên dụng (Asset Inventory)
 - **Trạm cân điện tử tự động 120 tấn:** Bàn cân dài 18m, cảm biến lực kỹ thuật số Zemic đạt cấp chính xác Class III, tích hợp hệ thống nhận diện biển số tự động qua camera AI và in phiếu cân tự động.
 - **Thiết bị nâng container hàng 35 tấn:** Chuyên dụng nâng gắp vỏ container nguyên tải hàng để sang xe đầu kéo trong 30 – 45 phút.
 - **Thiết bị nâng hạ container rỗng 7,5 tấn:** Phục vụ bốc dỡ và xếp chồng vỏ container rỗng lên đến 5 tầng tại bãi depot.
 - **Đội xe nâng Forklift cơ giới:** 15 xe nâng động cơ Diesel và xe nâng điện tải trọng từ 3,5 tấn đến 10 tấn (Komatsu, Toyota, Heli).
-- **Cẩu bánh lốp hạng nặng:** 03 cẩu chuyên dụng tải trọng từ 25 tấn đến 50 tấn phục vụ sang tải các kiện hàng thiết bị cơ khí, bồn công nghiệp siêu trường siêu trọng.
-- **Hạ tầng cấp điện container lạnh:** Hơn 300 ổ cắm công nghiệp 3 pha 380V kết nối hệ thống trạm biến áp riêng biệt và máy phát điện dự phòng 1.000 kVA tự động khởi động sau 10 giây khi mất điện lưới.
+- **Hạ tầng cấp điện container lạnh:** Hệ thống tủ điện công nghiệp cấp nguồn 3 pha 380V/50Hz cho 70+ xe container lạnh cùng lúc, kết nối hệ thống trạm biến áp và máy phát điện dự phòng 1.000 kVA tự động khởi động sau 10 giây.
 - **Hệ thống an ninh:** 64 camera giám sát chuẩn IP hồng ngoại ban đêm, hệ thống tường rào bảo vệ biệt lập và trạm kiểm soát barie tự động 24/7.
+- **Năng lực đội phương tiện vận chuyển:** Hơn 400 xe các loại/ngày (ước tính 470 xe: 120 xe tải nhẹ, 200 xe tải trung/nặng, 80 xe cont thường, 70 xe cont lạnh) với tổng sản lượng vận chuyển đạt ~6.880 tấn hàng/ngày.
+
+---
 
 ---
 
@@ -1337,7 +1364,7 @@ Hotline:
 2. **Số điện thoại / Zalo / WeChat:** (Bắt buộc)
 3. **Email doanh nghiệp:** (Bắt buộc)
 4. **Tên công ty / Doanh nghiệp:** (Tùy chọn)
-5. **Dịch vụ quan tâm chính:** [Đại lý Hải quan / Kho bãi 32ha / Sang tải container / Vận tải Việt - Trung / Bến xe điều phối / Logistics trọn gói].
+5. **Dịch vụ quan tâm chính:** [Đại lý Hải quan / Kho bãi 25ha / Sang tải container / Vận tải Việt - Trung / Bến xe điều phối / Logistics trọn gói].
 6. **Tên loại hàng hóa & Mã HS dự kiến:** (Ví dụ: Nông sản, Thủy sản, Thiết bị máy móc, Hóa chất...).
 7. **Tuyến vận chuyển:** [Việt Nam ⇄ Cửa khẩu Tà Lùng ⇄ Trung Quốc].
 8. **Khối lượng / Số lượng container dự kiến:** (Ví dụ: 5 cont 40ft/tuần, 100 tấn/tháng...).
