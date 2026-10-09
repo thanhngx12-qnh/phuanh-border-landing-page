@@ -79,19 +79,19 @@ Thành lập Công ty TNHH TM VT Phú Anh tại Cao Bằng, khởi đầu hoạt
            │
            ▼
 [2024-2025] BỨT PHÁ TÀ LÙNG QUANG MINH
-Chuyển đổi thành Công ty Cổ phần Tà Lùng Quang Minh; đầu tư mở rộng hạ tầng lên 25ha bãi lõi; hiện đại hóa trạm cân điện tử 120 tấn và cẩu nâng container 35 tấn.
+Chuyển đổi thành Công ty Cổ phần Tà Lùng Quang Minh; đầu tư mở rộng hạ tầng lên 32ha (bổ sung Kho Ngoại Quan Song Toàn 8ha); hiện đại hóa trạm cân điện tử 120 tấn và cẩu nâng container 45 tấn.
            │
            ▼
-[2026] VẬN HÀNH ĐA ĐIỂM 30HA & CỬA KHẨU SỐ
-Vận hành hệ thống kho bãi đa điểm quy mô 30ha; hợp tác chiến lược cùng MISA chuyển đổi số toàn diện; tham gia nền tảng Cửa khẩu số tỉnh Cao Bằng; đón đầu cao tốc Đồng Đăng - Trà Lĩnh.
+[2026] VẬN HÀNH TỔ HỢP 32HA & CỬA KHẨU SỐ
+Vận hành hệ thống kho bãi & ngoại quan quy mô 32ha (320.000 m²); hợp tác chiến lược cùng MISA chuyển đổi số toàn diện; tham gia nền tảng Cửa khẩu số tỉnh Cao Bằng; đón đầu cao tốc Đồng Đăng - Trà Lĩnh.
 ```
 
 - **Năm 2008 – Khởi đầu tiên phong:**  
   Thành lập **Công ty TNHH Thương mại Vận tải Phú Anh**, đặt nền móng cho hoạt động logistics chuyên nghiệp tại Cửa khẩu Quốc tế Tà Lùng, tỉnh Cao Bằng.
 - **Giai đoạn Đổi mới & Tăng trưởng:**  
-  Mở rộng quy mô, chuyển đổi mô hình thành **Công ty Cổ phần Tà Lùng Quang Minh**. Tiến hành đầu tư đồng bộ hệ thống kho bãi 25 ha, đầu tư trạm cân điện tử 120 tấn, hệ thống nâng gắp container 35 tấn và cắm điện container lạnh chuyên dụng.
+  Mở rộng quy mô, chuyển đổi mô hình thành **Công ty Cổ phần Tà Lùng Quang Minh**. Tiến hành đầu tư đồng bộ hệ thống kho bãi & ngoại quan 32 ha (bổ sung Kho ngoại quan Song Toàn 8ha), đầu tư trạm cân điện tử 120 tấn, hệ thống nâng gắp container 45 tấn và cắm điện container lạnh chuyên dụng.
 - **Giai đoạn Chuyển đổi số & Hội nhập quốc tế (2025 - 2026):**  
-  Triển khai hệ thống quản trị logistics số hóa cùng MISA; tham gia nền tảng Cửa khẩu số; ký kết hợp tác xúc tiến thương mại với Hiệp hội Doanh nghiệp Quảng Tây – Trùng Khánh tại Nam Ninh; mở rộng hệ thống kho bãi đa điểm lên đến 30 ha.
+  Triển khai hệ thống quản trị logistics số hóa cùng MISA; tham gia nền tảng Cửa khẩu số; ký kết hợp tác xúc tiến thương mại với Hiệp hội Doanh nghiệp Quảng Tây – Trùng Khánh tại Nam Ninh; mở rộng hệ thống kho bãi và kho ngoại quan lên đến 32 ha (320.000 m²).
 
 ---
 
@@ -136,14 +136,14 @@ Bộ máy quản trị và điều hành của Tà Lùng Quang Minh được ph�
 │   PHÒNG VẬN HÀNH      │ │ PHÒNG KINH DOANH    │ │ BỘ PHẬN THỦ TỤC       │ │ BỘ PHẬN TÀI CHÍNH     │
 │    (OPERATIONS)       │ │     & CSKH          │ │ HẢI QUAN & XNK        │ │ KẾ TOÁN & HÀNH CHÍNH  │
 │Quản lý bãi tập kết    │ │Phát triển thị trường│ │Đại lý hải quan        │ │Kế toán, xuất hóa đơn  │
-│25ha, trạm cân 120T,   │ │B2B, xúc tiến thương │ │chuyên trách, tờ khai  │ │điện tử, đối soát kho  │
+│32ha & KNQ Song Toàn,  │ │B2B, xúc tiến thương │ │chuyên trách, tờ khai  │ │điện tử, đối soát kho  │
 │sang tải cơ giới &     │ │mại Việt — Trung,    │ │VNACCS, kiểm dịch      │ │bãi, nhân sự và tuân   │
 │container lạnh 24/7.   │ │báo giá dịch vụ 24/7 │ │nhanh dưới 2 giờ.      │ │thủ pháp lý.           │
 └───────────────────────┘ └─────────────────────┘ └───────────────────────┘ └───────────────────────┘
 ```
 
 1. **Phòng Vận Hành (Operations):**  
-   - Chịu trách nhiệm toàn diện công tác quản lý hiện trường tại bến bãi 25ha.
+   - Chịu trách nhiệm toàn diện công tác quản lý hiện trường tại bến bãi & KNQ 32ha (gồm Kho ngoại quan Song Toàn 8ha).
    - Vận hành trạm cân điện tử tự động 120 tấn, phân luồng phương tiện, cấp phát thẻ xe thông minh.
    - Điều phối thiết bị nâng gắp container 35 tấn, đội xe nâng cơ giới, sang tải hàng hóa và giám sát kỹ thuật cắm điện container lạnh 24/7.
 2. **Phòng Kinh Doanh & Dịch Vụ Khách Hàng (Commercial & Customer Service):**  
@@ -251,8 +251,8 @@ Theo bảng công suất vận hành công bố chính thức, toàn hệ thốn
 - **Thời gian cam kết:** Dưới 2 giờ đối với lô hàng chuẩn bị đầy đủ chứng từ hợp lệ.
 - **Hotline dịch vụ:** `+84 865.865.600`
 
-### Dịch Vụ 2: Dịch Vụ Kho Bãi & Bãi Tập Kết 25 Héc-Ta
-- **Đặc tả nghiệp vụ:** Lưu trữ, bảo quản hàng hóa trong bãi tập kết 25ha ngay sát vạch cửa khẩu; cung cấp bến bãi đỗ xe an toàn có camera AI bảo vệ; kho ngoại quan Song Toàn lưu trữ hàng bảo thuế; trạm cân 120 tấn kiểm soát tải trọng chính xác.
+### Dịch Vụ 2: Dịch Vụ Kho Bãi & Bãi Tập Kết 32 Héc-Ta (Gồm KNQ Song Toàn 8ha)
+- **Đặc tả nghiệp vụ:** Lưu trữ, bảo quản hàng hóa trong tổ hợp bến bãi 32ha ngay sát vạch cửa khẩu; cung cấp bến bãi đỗ xe an toàn có camera AI bảo vệ; Kho Ngoại Quan Song Toàn quy mô 8ha (80.000m²) lưu trữ hàng bảo thuế; trạm cân 120 tấn kiểm soát tải trọng chính xác.
 
 ### Dịch Vụ 3: Sang Tải Cơ Giới & Sang Container Hiện Đại
 - **Đặc tả nghiệp vụ:** Sử dụng cẩu gắp container 35 tấn chuyên dụng sang container nguyên seal trong 30 – 45 phút, không chạm vào hàng hóa bên trong, giữ nguyên vẹn chất lượng nông sản, hoa quả và thủy hải sản xuất khẩu; sang tải đuôi-đuôi cho hàng pallet bằng xe nâng cơ giới.
@@ -356,7 +356,7 @@ Dưới đây là toàn bộ 30 bài viết thực tế được đăng tải tr
 ## 11. MẠNG LƯỚI CHI NHÁNH, VĂN PHÒNG & THÔNG TIN LIÊN HỆ
 
 ### 11.1. Hệ thống Văn phòng & Điểm giao dịch
-- **Trụ sở chính & Tổ hợp Bến bãi 25ha:**  
+- **Trụ sở chính & Tổ hợp Bến bãi 32ha:**  
   Địa chỉ: Cửa khẩu Quốc tế Tà Lùng, Thị trấn Phục Hòa (nay là xã Phục Hòa), Huyện Quảng Hòa, Tỉnh Cao Bằng  
   Hotline: `+84 865.865.600` / `0963.320.355` (Trực 24/7)
 - **Văn phòng Đại diện tại Quảng Ninh:**  
