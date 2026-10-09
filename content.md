@@ -1,7 +1,7 @@
 # HỆ THỐNG NỘI DUNG CHÍNH THỨC TOÀN DIỆN (OFFICIAL MASTER CONTENT SPECIFICATION)
 ## CÔNG TY CỔ PHẦN TÀ LÙNG QUANG MINH (TÀ LÙNG LOGISTICS)
 **Phiên bản:** 3.0 (Đại Bách Khoa Nội Dung Chuẩn Hóa Thực Tế – Đối Chiếu 100% Live Website www.talunglogistics.com & Facebook @talunglogistics.11)  
-**Nguyên tắc thực thi:** Tuyệt đối không bịa đặt hay phóng đại số liệu; bảo toàn toàn bộ dữ liệu lịch sử từ năm 2008 (Phú Anh), cơ cấu Hội đồng quản trị & Ban điều hành thực tế, hạ tầng kho bãi đa điểm 30ha (tổ hợp lõi 25ha), năng lực tiếp nhận 400+ xe/ngày (~6.880 tấn/ngày), 70+ xe container lạnh/ngày, 100+ container thông quan/ngày, 30 bài viết nghiệp vụ và 13 vị trí tuyển dụng thực tế.
+**Nguyên tắc thực thi:** Tuyệt đối không bịa đặt hay phóng đại số liệu; bảo toàn toàn bộ dữ liệu lịch sử từ năm 2008 (Phú Anh), cơ cấu Hội đồng quản trị & Ban điều hành thực tế, hạ tầng tổ hợp kho bãi & ngoại quan 32ha (gồm KNQ Song Toàn 8ha), năng lực tiếp nhận 400+ xe/ngày (~6.880 tấn/ngày), 70+ xe container lạnh/ngày, 100+ container thông quan/ngày, 30 bài viết nghiệp vụ và 13 vị trí tuyển dụng thực tế.
 
 ---
 
@@ -9,7 +9,7 @@
 1. [Hồ Sơ Doanh Nghiệp, Mạng Lưới Chi Nhánh & Đối Tác Chiến Lược](#1-hồ-sơ-doanh-nghiệp-mạng-lưới-chi-nhánh--đối-tác-chiến-lược)
 2. [Nội Dung Trang Giới Thiệu (About Us), Ban Lãnh Đạo & Tuyên Ngôn Giá Trị](#2-nội-dung-trang-giới-thiệu-about-us-ban-lãnh-đạo--tuyên-ngôn-giá-trị)
 3. [Đặc Tả 6 Nhóm Dịch Vụ Cốt Lõi & Cấu Trúc Biểu Phí Minh Bạch](#3-đặc-tả-6-nhóm-dịch-vụ-cốt-lõi--cấu-trúc-biểu-phí-minh-bạch)
-4. [Hồ Sơ Hạ Tầng Kho Bãi Đa Điểm 30 Héc-Ta (Bãi Lõi 25ha) & Thiết Bị Cơ Giới](#4-hồ-sơ-hạ-tầng-kho-bãi-đa-điểm-30-héc-ta-bãi-lõi-25ha--thiết-bị-cơ-giới)
+4. [Hồ Sơ Hạ Tầng Kho Bãi & KNQ Quy Mô 32 Héc-Ta (Gồm KNQ Song Toàn 8ha) & Thiết Bị Cơ Giới](#4-hồ-sơ-hạ-tầng-kho-bãi--knq-quy-mô-32-héc-ta-gồm-knq-song-toàn-8ha--thiết-bị-cơ-giới)
 5. [Toàn Bộ 30 Bài Tin Tức & Nghiệp Vụ Biên Mậu Thực Tế (Database Archive)](#5-toàn-bộ-30-bài-tin-tức--nghiệp-vụ-biên-mậu-thực-tế-database-archive)
 6. [Kế Hoạch 10 Bài Viết SEO Theo Chiến Lược Hoàn Thiện Web B2B (Excel Plan)](#6-kế-hoạch-10-bài-viết-seo-theo-chiến-lược-hoàn-thiện-web-b2b-excel-plan)
 7. [Nội Dung Tuyển Dụng & Bản Mô Tả Công Việc (JD) 13 Vị Trí Thực Tế](#7-nội-dung-tuyển-dụng--bản-mô-tả-công-việc-jd-13-vị-trí-thực-tế)
@@ -42,13 +42,13 @@
 
 ### 1.2. Mạng lưới 5 Văn phòng & Chi nhánh điều hành thực tế (Dữ liệu Neon DB)
 
-#### Chi nhánh 1: Trụ Sở & Bến Bãi 25ha (Cửa khẩu Tà Lùng) (Trụ sở chính & Tổ hợp Kho bãi)
+#### Chi nhánh 1: Trụ Sở & Bến Bãi 32ha (Cửa khẩu Tà Lùng) (Trụ sở chính & Tổ hợp Kho bãi)
 - **Địa chỉ:** Cửa khẩu Quốc tế Tà Lùng, Huyện Phục Hòa (nay là xã Phục Hòa), Tỉnh Cao Bằng
 - **Điện thoại:** +84 865.865.600
 - **Giờ làm việc:** 24/7 (Cả Lễ, Tết)
-- **Vai trò nghiệp vụ:** Tổ hợp bến bãi container 25ha (hệ thống đa điểm mở rộng 30ha), trạm cân điện tử 120T, kho ngoại quan & chuỗi cắm điện kho lạnh 380V tại Cửa khẩu Tà Lùng
+- **Vai trò nghiệp vụ:** Tổ hợp bến bãi container & KNQ 32ha (gồm Kho ngoại quan Song Toàn 8ha), trạm cân điện tử 120T & chuỗi cắm điện kho lạnh 380V tại Cửa khẩu Tà Lùng
 - **Tọa độ định vị:** Lat: `22.477`, Lng: `106.6853`
-- **Bản đồ Google Maps:** [Trụ Sở & Bến Bãi 25ha (Cửa khẩu Tà Lùng)](https://maps.google.com/?q=Cua+Khau+Quoc+Te+Ta+Lung+Cao+Bang)
+- **Bản đồ Google Maps:** [Trụ Sở & Bến Bãi 32ha (Cửa khẩu Tà Lùng)](https://maps.google.com/?q=Cua+Khau+Quoc+Te+Ta+Lung+Cao+Bang)
 
 #### Chi nhánh 2: Văn Phòng Hà Nội (Điều Phối & Hải Quan) (Văn phòng đại diện & Tư vấn thủ tục)
 - **Địa chỉ:** Tòa nhà Logistics, Phố Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội
@@ -112,8 +112,8 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
 ### 2.2. Dấu ấn phát triển qua các thời kỳ
 - **Năm 2008 – Khởi đầu tiên phong:**  
   Thành lập Công ty TNHH Thương mại Vận tải Phú Anh tại Cao Bằng, đặt những viên gạch đầu tiên cho dịch vụ vận tải hàng hóa và mở tờ khai hải quan tại Cửa khẩu Tà Lùng.
-- **Giai đoạn Đổi Mới – Tà Lùng Quang Minh 25ha (Mở rộng Đa điểm 30ha):**  
-  Chuyển đổi thành Công ty Cổ phần Tà Lùng Quang Minh, mở rộng đầu tư hạ tầng bến bãi lên đến 25 ha trọng điểm, thiết lập mạng lưới đa điểm 30 ha, xây dựng trạm cân điện tử tự động 120 tấn và cẩu gắp container 35 tấn.
+- **Giai đoạn Đổi Mới – Tà Lùng Quang Minh 32ha (Bổ sung KNQ Song Toàn 8ha):**  
+  Chuyển đổi thành Công ty Cổ phần Tà Lùng Quang Minh, mở rộng đầu tư hạ tầng bến bãi và kho ngoại quan lên đến 32 ha (bổ sung Kho ngoại quan Song Toàn 8ha), xây dựng trạm cân điện tử tự động 120 tấn và cẩu gắp container 45 tấn.
 - **Tương Lai – Tích hợp Hành lang Cửa khẩu Tà Lùng – Chi Ma & Cao tốc Đồng Đăng - Trà Lĩnh:**  
   Tích hợp hoàn thiện hệ thống cửa khẩu Tà Lùng - Chi Ma, đón đầu tuyến cao tốc Đồng Đăng - Trà Lĩnh, kiến tạo chuỗi dịch vụ logistics dọc toàn tuyến biên giới Đông Bắc kết nối thẳng tới thị trường Tây Nam Trung Quốc (Trùng Khánh, Nam Ninh, Tứ Xuyên).
 
@@ -148,7 +148,7 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
 
 #### Cơ cấu 4 phòng ban chuyên môn vận hành thực tế:
 1. **Phòng Vận Hành (Operations):**  
-   - Quản lý bãi tập kết 25ha, trạm cân điện tử 120 tấn, phân luồng phương tiện, bốc xếp sang tải cơ giới và điều phối container lạnh 24/7.
+   - Quản lý bãi tập kết & KNQ 32ha (gồm Kho ngoại quan Song Toàn 8ha), trạm cân điện tử 120 tấn, phân luồng phương tiện, bốc xếp sang tải cơ giới và điều phối container lạnh 24/7.
 2. **Phòng Kinh Doanh & Dịch Vụ Khách Hàng (Commercial & CSKH):**  
    - Phụ trách quan hệ đối tác B2B, xúc tiến thương mại XNK Việt — Trung, báo giá dịch vụ và chăm sóc khách hàng 24/7.
 3. **Bộ Phận Thủ Tục Hải Quan & XNK (Customs Clearance):**  
@@ -157,7 +157,7 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
    - Quản trị tài chính bến bãi, xuất hóa đơn điện tử, đối soát công nợ, quản lý nhân sự và đảm bảo tuân thủ pháp lý doanh nghiệp.
 
 ### 2.6. Bảng chỉ số năng lực đo lường thực tế (Verified Metrics)
-- **25 Héc-ta (250.000 m²):** Quy mô diện tích 3 cụm bãi trọng điểm trung tâm (hệ thống logistics đa điểm mở rộng 30 ha).
+- **32 Héc-ta (320.000 m²):** Quy mô diện tích 4 cụm bãi & kho ngoại quan trọng điểm (gồm Kho ngoại quan Song Toàn 8ha).
 - **100+ Container / Ngày:** Năng lực thông quan hoàn tất thủ tục và giải phóng qua cửa khẩu mỗi ngày.
 - **Hơn 400 Xe / Ngày:** Lượng phương tiện điều phối toàn hệ thống mỗi ngày (khoảng 470 xe các loại/ngày).
 - **70+ Xe Container Lạnh / Ngày:** Tiếp nhận và duy trì cắm điện bảo quản liên tục cho container nông sản và thủy hải sản đông lạnh.
@@ -199,11 +199,11 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
 
 ---
 
-### Dịch Vụ 2: Dịch Vụ Kho Bãi & Bãi Tập Kết Hàng Hóa 25 Héc-Ta (Hệ Thống Đa Điểm 30ha)
+### Dịch Vụ 2: Dịch Vụ Kho Bãi & Bãi Tập Kết Hàng Hóa 32 Héc-Ta (Gồm KNQ Song Toàn 8ha)
 - **Mã hệ thống:** `kho-bai-ta-lung` | **Icon:** `warehouse` (Kho bãi) | **Category ID:** 4
-- **Định danh trên hệ thống:** Hệ Thống Kho Bãi & Bến Bãi Tập Kết 25ha Tại Cửa Khẩu Quốc Tế Tà Lùng (Hệ Thống Đa Điểm Mở Rộng 30ha)
+- **Định danh trên hệ thống:** Hệ Thống Kho Bãi & Bến Bãi Tập Kết 32ha Tại Cửa Khẩu Quốc Tế Tà Lùng (Gồm Kho Ngoại Quan Song Toàn 8ha)
 - **Tổng quan nghiệp vụ:**  
-  Vận hành hệ thống kho bãi quy mô 25 héc-ta trọng điểm (mở rộng đa điểm 30 ha) nằm ngay sát vạch phân định Cửa khẩu Quốc tế Tà Lùng, cung cấp giải pháp lưu trữ, trung chuyển và hỗ trợ thông quan toàn diện cho hoạt động xuất nhập khẩu Việt Nam – Trung Quốc. Hạ tầng tiếp nhận hơn 400 xe/ngày, xử lý 100+ container thông quan/ngày và cắm 70+ container lạnh/ngày.
+  Vận hành hệ thống kho bãi & ngoại quan quy mô 32 héc-ta trọng điểm (gồm Kho ngoại quan Song Toàn 8ha) nằm ngay sát vạch phân định Cửa khẩu Quốc tế Tà Lùng, cung cấp giải pháp lưu trữ, trung chuyển và hỗ trợ thông quan toàn diện cho hoạt động xuất nhập khẩu Việt Nam – Trung Quốc. Hạ tầng tiếp nhận hơn 400 xe/ngày, xử lý 100+ container thông quan/ngày và cắm 70+ container lạnh/ngày.
 - **9 Dịch vụ triển khai đồng bộ tại hệ thống kho bãi:**
   1. Sang tải hàng hóa xuất nhập khẩu.
   2. Cắm container lạnh (hệ thống điện 3 pha 380V công suất lớn).
@@ -286,45 +286,42 @@ Hệ sinh thái dịch vụ của Tà Lùng Quang Minh bao trùm toàn diện:
 
 ---
 
-## 4. HỒ SƠ HẠ TẦNG KHO BÃI ĐA ĐIỂM 30 HÉC-TA (BÃI LÕI 25HA) & THIẾT BỊ CƠ GIỚI
+## 4. HỒ SƠ HẠ TẦNG KHO BÃI & KNQ QUY MÔ 32 HÉC-TA (GỒM KNQ SONG TOÀN 8HA) & THIẾT BỊ CƠ GIỚI
 
-Hệ thống kho bãi của Công ty Cổ phần Tà Lùng Quang Minh được quy hoạch khoa học theo mô hình vận hành đa điểm với tổng quy mô 30 hecta (300.000 m²), trong đó tổ hợp bến bãi lõi trọng điểm là 25 ha:
+Hệ thống kho bãi của Công ty Cổ phần Tà Lùng Quang Minh được quy hoạch khoa học với 4 phân khu trọng điểm đạt tổng quy mô 32 hecta (320.000 m²), nổi bật với việc bổ sung Kho Ngoại Quan Song Toàn quy mô 8ha:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│             HỆ THỐNG LOGISTICS ĐA ĐIỂM TÀ LÙNG QUANG MINH: 30 HÉC-TA        │
+│             HỆ THỐNG LOGISTICS & KNQ TÀ LÙNG QUANG MINH: 32 HÉC-TA          │
 ├──────────────────────┬──────────────────────┬───────────────────────────────┤
-│ 1. Cụm Phú Anh       │ 2. Kho Sơn Cảng      │ 3. Kho Vũ Thành: 14.000 m²    │
-│    (1, 2, 3):        │    30.000 m²         │    - ~50 xe/ngày              │
-│    80.000 m²         │    - ~100 xe/ngày    │    - Điều phối & giảm tải     │
-│    - ~260 xe/ngày    │    - 50-70 cont lạnh ├───────────────────────────────┤
-│    - Bộ não vận hành │    - Chuỗi lạnh 380V │ 4. Kho Song Toàn: 12.000+ m²  │
-│    - Sang tải cơ giới│                      │    - Kho ngoại quan bảo thuế  │
+│ 1. Cụm Phú Anh       │ 2. Kho Ngoại Quan    │ 3. Kho Sơn Cảng: 30.000 m²    │
+│    (1, 2, 3):        │    Song Toàn:        │    - ~100 xe/ngày             │
+│    80.000 m² (8ha)   │    80.000 m² (8ha)   │    - 50-70 cont lạnh          │
+│    - ~260 xe/ngày    │    - Kho ngoại quan  │    - Chuỗi lạnh 380V          │
+│    - Bộ não vận hành │      bảo thuế        ├───────────────────────────────┤
+│    - Sang tải cơ giới│    - Kiểm hóa HQ     │ 4. Kho Vũ Thành: 14.000 m²    │
 ├──────────────────────┴──────────────────────┼───────────────────────────────┤
-│ 5. Kho CPN: ~8.000 m² (Trung chuyển nhanh,  │ Trọng điểm 3 bãi lõi: 25 ha   │
-│ phân loại & last-mile logistics)            │ Hệ thống đa điểm mở rộng: 30ha│
+│ 5. Hạ tầng giao thông kết nối, trạm cân,    │ Tổng diện tích toàn hệ thống: │
+│ đường nội bộ phụ trợ: ~116.000 m²           │ 32 ha (320.000 m²)            │
 └─────────────────────────────────────────────┴───────────────────────────────┘
 ```
 
-### 4.1. Thông số chi tiết 5 phân khu kho bãi đa điểm
+### 4.1. Thông số chi tiết các phân khu kho bãi chiến lược
 1. **Cụm Kho Bãi Phú Anh (1, 2, 3) – Trung tâm Vận hành Chính:**
    - *Diện tích:* **80.000 m²** (8 ha).
    - *Năng lực vận hành:* Xử lý khoảng 260 xe/ngày; xếp dỡ cơ giới, hàng lạnh và điều phối trung tâm.
-   - *Thế mạnh nổi bật:* Là "bộ não vận hành" của toàn hệ thống; tiếp nhận lượng xe container lớn; trung tâm sang tải cơ giới cẩu 35 tấn và xe nâng.
-2. **Kho Sơn Cảng – Trung tâm Container Lạnh Chuyên Dụng:**
+   - *Thế mạnh nổi bật:* Là "bộ não vận hành" của toàn hệ thống; tiếp nhận lượng xe container lớn; trung tâm sang tải cơ giới cẩu 45 tấn và xe nâng.
+2. **Kho Ngoại Quan Song Toàn – Trung Tâm Kho Ngoại Quan & Bảo Thuế:**
+   - *Diện tích:* **80.000 m²** (8 ha).
+   - *Chức năng chính:* Lưu trữ hàng hóa ngoại quan, kiểm hóa chuyên ngành, hỗ trợ tối ưu chi phí thuế và rút ngắn thời gian làm thủ tục hải quan trực tiếp tại cửa khẩu.
+3. **Kho Sơn Cảng – Trung tâm Container Lạnh Chuyên Dụng:**
    - *Diện tích:* **30.000 m²** (3 ha).
    - *Năng lực vận hành:* Xử lý khoảng 100 xe/ngày; tiếp nhận và cắm điện liên tục cho **50 – 70 xe container lạnh / ngày**.
    - *Thế mạnh nổi bật:* Đóng vai trò chiến lược trong xuất khẩu nông sản tươi sống (thanh long, chuối, xoài, mít, sầu riêng) và thủy sản đông lạnh; trang bị trạm điện 3 pha 380V công suất lớn.
-3. **Kho Vũ Thành – Trạm Điều Phối & Phân Luồng Giảm Tải:**
+4. **Kho Vũ Thành – Trạm Điều Phối & Phân Luồng Giảm Tải:**
    - *Diện tích:* **14.000 m²** (1,4 ha).
    - *Năng lực vận hành:* Tiếp nhận và điều phối khoảng 50 xe/ngày.
    - *Chức năng chính:* Giúp giảm ùn tắc, phân tán lưu lượng phương tiện và duy trì dòng chảy giao thông thông suốt tại cửa khẩu.
-4. **Kho Song Toàn – Kho Ngoại Quan Bảo Thuế:**
-   - *Diện tích:* Hơn **12.000 m²** (1,2+ ha).
-   - *Chức năng chính:* Lưu trữ hàng hóa xuất nhập khẩu, hỗ trợ tối ưu chi phí thuế và rút ngắn thời gian làm thủ tục hải quan.
-5. **Kho CPN – Trung Tâm Trung Chuyển Nhanh:**
-   - *Diện tích:* Khoảng **8.000 m²**.
-   - *Chức năng chính:* Phân loại nhanh hàng hóa, bưu kiện, hàng thương mại điện tử và phục vụ logistics chặng cuối (last-mile).
 
 ### 4.2. Bảng kê trang thiết bị cơ giới chuyên dụng (Asset Inventory)
 - **Trạm cân điện tử tự động 120 tấn:** Bàn cân dài 18m, cảm biến lực kỹ thuật số Zemic đạt cấp chính xác Class III, tích hợp hệ thống nhận diện biển số tự động qua camera AI và in phiếu cân tự động.
@@ -1364,7 +1361,7 @@ Hotline:
 2. **Số điện thoại / Zalo / WeChat:** (Bắt buộc)
 3. **Email doanh nghiệp:** (Bắt buộc)
 4. **Tên công ty / Doanh nghiệp:** (Tùy chọn)
-5. **Dịch vụ quan tâm chính:** [Đại lý Hải quan / Kho bãi 25ha / Sang tải container / Vận tải Việt - Trung / Bến xe điều phối / Logistics trọn gói].
+5. **Dịch vụ quan tâm chính:** [Đại lý Hải quan / Kho bãi & KNQ 32ha / Sang tải container / Vận tải Việt - Trung / Bến xe điều phối / Logistics trọn gói].
 6. **Tên loại hàng hóa & Mã HS dự kiến:** (Ví dụ: Nông sản, Thủy sản, Thiết bị máy móc, Hóa chất...).
 7. **Tuyến vận chuyển:** [Việt Nam ⇄ Cửa khẩu Tà Lùng ⇄ Trung Quốc].
 8. **Khối lượng / Số lượng container dự kiến:** (Ví dụ: 5 cont 40ft/tuần, 100 tấn/tháng...).
