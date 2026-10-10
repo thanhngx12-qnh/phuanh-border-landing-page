@@ -1303,3 +1303,76 @@ Thực hiện yêu cầu của khách hàng ("Dữ liệu thì bạn hãy trích
      - **Phần 7: Liên hệ & Form báo giá B2B**: Các trường dữ liệu phục vụ đối tác doanh nghiệp.
      - **Phần 8: Từ điển thuật ngữ đa ngữ**: Đối chiếu chuẩn xác 20 thuật ngữ then chốt giữa Tiếng Việt - Tiếng Trung - Tiếng Anh.
 3. **Đồng Bộ Git**: Đã commit và push đồng bộ lên cả 2 nhánh `develop` và `main`.
+
+## 31. Checkpoint 20 — Đa Ngôn Ngữ Chuẩn Hóa VI / EN / ZH (Zero Language Leakage) (2026-09-14)
+
+1. **Khắc Phục Rò Rỉ Ngôn Ngữ (Language Leakage)**:
+   - Rà soát toàn bộ các khối Trang chủ, Trang Dịch vụ, Giới thiệu, Liên hệ nhằm đảm bảo 100% nội dung hiển thị đúng theo ngôn ngữ được chọn (`/vi`, `/en`, `/zh`).
+   - Cập nhật backend `global-settings` hỗ trợ lưu trữ và trả về đầy đủ các trường `_vi`, `_en`, `_zh` cho từng cấu hình.
+2. **Admin Panel CMS Đa Ngôn Ngữ**:
+   - Tab Cài đặt Trang chủ và Giới thiệu hỗ trợ bộ chọn ngôn ngữ (VI, EN, ZH) trực quan, cho phép biên tập độc lập cho từng thị trường.
+
+## 32. Checkpoint 21 — Nâng Cấp Trang Năng Lực Hạ Tầng 1440px (/infrastructure & /nang-luc-ha-tang) (2026-09-14)
+
+1. **Giao Diện Doanh Nghiệp 1440px**:
+   - Dựng trang `/infrastructure` và `/nang-luc-ha-tang` với bảng thông số kỹ thuật chi tiết: 32ha bến bãi, trạm cân 120 tấn, dàn xe nâng reach stacker, trạm sạc container lạnh, kho CFS.
+   - Tích hợp biểu mẫu `B2BQuoteForm` tiếp nhận yêu cầu báo giá ngay chân trang năng lực.
+
+## 33. Checkpoint 22 — Danh Mục 6 Dịch Vụ Con B2B & Smart Fallback Template (2026-09-14)
+
+1. **6 Route Dịch Vụ Chi Tiết**:
+   - Hoàn thiện 6 trang dịch vụ con: Đại lý hải quan, Kho bãi, Sang tải, Vận tải quốc tế, Bến xe điều phối, Logistics trọn gói.
+2. **Cơ Chế Dự Phòng Thông Minh (Smart Fallback)**:
+   - Khi Admin tạo mới một dịch vụ chưa có đầy đủ khối B2B, hệ thống tự động kích hoạt layout dự phòng chuẩn hóa gồm các khối: Vấn đề khách hàng, Giải pháp, Quy trình, Lợi ích và Kêu gọi hành động (CTA).
+
+## 34. Checkpoint 23 — Nâng Cấp Vippro Enterprise Toàn Bộ 5 Cổng Thông Tin (2026-09-14)
+
+1. **Nâng Cấp Đồng Loạt**:
+   - Cổng Tin tức: Thẻ bài viết 16:9 sắc nét, lọc danh mục mượt mà, breadcrumb Schema.
+   - Cổng Tuyển dụng: Trình bày văn hóa công ty, 12 vị trí tuyển dụng chi tiết (JD), form nộp CV trực tuyến có đính kèm file.
+   - Cổng Liên hệ & Báo giá: Bản đồ tương tác, số hotline chính thức `+84 865.865.600`.
+   - Cổng Tuyên ngôn giá trị (`/manifesto`): Trình bày triết lý phục vụ, cam kết thời gian thông quan dưới 2 giờ.
+
+## 35. Checkpoint 24 — Cập Nhật Quy Mô Hạ Tầng Lên 32ha (Song Toàn 8ha) (2026-10-09)
+
+1. **Chuẩn Hóa Số Liệu Truyền Thông**:
+   - Cập nhật số liệu năng lực bến bãi trên toàn bộ nền tảng lên **32ha** (bao gồm 25ha phân khu lõi tại Tà Lùng và 8ha Kho Ngoại quan Song Toàn) theo thông tin thực tế từ doanh nghiệp.
+   - Cập nhật đồng bộ trong `backend/scripts`, `global-settings`, `Homepage`, `About`, `Infrastructure` và hồ sơ doanh nghiệp `TALUNG_LOGISTICS_MASTER_PROFILE.md`.
+
+## 36. Checkpoint 25 — Carousel Dịch Vụ, 10 Bài Trang 1, Dropdown Header & 2 Chi Nhánh (2026-10-09)
+
+1. **Carousel Dịch Vụ Cốt Lõi**:
+   - Thiết kế lại khối Dịch vụ nổi bật trang chủ thành dạng Carousel trượt êm ái, cân đối hoàn hảo layout ngay cả khi hiển thị 4 dịch vụ (không còn bị lẻ 1 dịch vụ ở hàng dưới).
+2. **Nâng Cấp Phân Trang Tin Tức**:
+   - Trang 1 hiển thị linh hoạt **10 bài viết**; các trang tiếp theo phân trang chuẩn xác (hỗ trợ custom offset từ backend).
+3. **Dropdown Tin Tức Tại Header**:
+   - Hover nút "Tin tức" trên Header tự động xổ menu danh mục đa cấp: *Tất cả tin tức, Sự kiện công ty, Hoạt động xã hội, Chính sách & Cửa khẩu, Tin tức & Sự kiện*.
+4. **Mạng Lưới 2 Chi Nhánh Chuẩn Hóa**:
+   - Chuẩn hóa mạng lưới còn đúng 2 cơ sở vận hành chính thức: Trụ sở chính Cửa khẩu Quốc tế Tà Lùng (Cao Bằng) và Văn phòng đại diện Bãi Cháy (Quảng Ninh).
+
+## 37. Checkpoint 26 — Nâng Cấp Bộ Công Cụ Quản Trị Admin CMS (2026-10-09)
+
+1. **Bộ Tải Ảnh Trực Tiếp (Upload Cloud)**: Tích hợp `RHFImageUpload` tải ảnh trực tiếp từ máy tính lên Cloudinary.
+2. **Trình Soạn Thảo WYSIWYG Editor (TinyMCE)**: Tích hợp `RHFEditor` cho trang Điều khoản & Chính sách bảo mật, hỗ trợ định dạng trực quan.
+3. **Sửa Định Dạng Input Số**: Sửa `RHFInputNumber` giữ nguyên giá trị số nguyên vẹn, không bị tự động ép đơn vị tiền tệ/phần trăm.
+4. **Công Tắc Bật/Tắt Khối Trang Chủ**: Thêm cụm công tắc quản trị trong Admin cho phép ẩn/hiện độc lập từng khối trên Trang chủ.
+
+## 38. Checkpoint 27 — Khắc Phục Lệch API & Triển Khai Staging Đồng Nhất (2026-10-09)
+
+1. **Khắc Phục Lỗi Lệch Database Staging**:
+   - Chuẩn hóa biến môi trường `NEXT_PUBLIC_API_URL = https://phuanh-api.onrender.com` trên Vercel Preview & Production.
+   - Xóa bỏ triệt để điểm trỏ vào domain cũ `api.talunglogistics.com` bị lỗi 404.
+2. **Gán Tên Miền Staging Cố Định**:
+   - Landing Page: `https://phuanh-staging.vercel.app/`
+   - Admin Panel: `https://phuanh-admin-panel-frontend-staging.vercel.app/`
+   - Backend API: `https://phuanh-api.onrender.com`
+
+## 39. Checkpoint 28 — Sao Lưu Cơ Sở Dữ Liệu & Đồng Bộ 39 Bài Viết (2026-10-09)
+
+1. **Sao Lưu Toàn Diện**:
+   - Tạo file backup toàn bộ dữ liệu từ hệ thống cũ: `backend/scripts/old_api_talunglogistics_backup_20261009.json`.
+   - Xuất bản file dump SQL tiêu chuẩn: `backend/scripts/neon_db_backup_20261009.sql` (596 KB).
+2. **Đồng Bộ Dữ Liệu Tin Tức**:
+   - Nạp thành công 9 bài viết mới nhất từ tháng 9–10/2026 sang Neon PostgreSQL, nâng tổng số bài viết lên đúng **39 bài**.
+   - Cả Landing Page và Admin Panel đồng bộ 100% dữ liệu thời gian thực.
+
