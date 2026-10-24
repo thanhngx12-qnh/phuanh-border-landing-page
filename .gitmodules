@@ -1,0 +1,14 @@
+[submodule "backend"]
+	path = backend
+	url = ../quangminh-smartborder-backend.git
+	branch = develop
+
+[submodule "frontend"]
+	path = frontend
+	url = ../quangminh-smartborder-frontend-.git
+	branch = develop
+
+[submodule "admin-panel-frontend"]
+	path = admin-panel-frontend
+	url = ../phuanh-admin-panel-frontend.git
+	branch = develop
